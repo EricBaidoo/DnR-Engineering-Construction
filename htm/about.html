@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About DnR Engineering Construction - Our story, mission, vision, and values.">
+    <title>About Us | DnR Engineering Construction</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/cropped-DnR-1.jpg">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+    .about-team-section {
+        background: linear-gradient(120deg, #f8fafc 80%, #eaf1fb 100%);
+        border-radius: 1.2rem;
+        box-shadow: 0 4px 24px rgba(26,79,160,0.07);
+        padding: 3rem 2rem 2.5rem 2rem;
+        margin: 3rem 0 2.5rem 0;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .about-team-header {
+        text-align: center;
+        margin-bottom: 2.2rem;
+    }
+    .about-team-gradient-title {
+        font-size: 2.2rem;
+        font-family: 'Playfair Display',serif;
+        font-weight: 800;
+        letter-spacing: 0.01em;
+        display: inline-block;
+        background: linear-gradient(90deg,#eaf1fb 60%,#1a4fa0 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.5rem;
+        position: relative;
+    }
+    .about-team-gradient-title:after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 4px;
+        background: linear-gradient(90deg,#1a4fa0 0%,#eaf1fb 100%);
+        border-radius: 2px;
+        margin: 0.7rem auto 0 auto;
+    }
+    .about-team-intro {
+        max-width: 600px;
+        margin: 0.7rem auto 0 auto;
+        font-size: 1.13rem;
+        color: #1a2233;
+    }
+    .about-team-row {
+        display: flex;
+        gap: 2.2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+    .about-team-card {
+        background: #fff;
+        border-radius: 1.1rem;
+        box-shadow: 0 4px 24px rgba(26,79,160,0.10);
+        padding: 2.2rem 1.5rem 1.7rem 1.5rem;
+        flex: 1 1 220px;
+        min-width: 220px;
+        max-width: 270px;
+        text-align: center;
+        transition: box-shadow 0.2s, transform 0.2s;
+        position: relative;
+        overflow: hidden;
+        animation: fadeInUp 0.7s cubic-bezier(.39,.575,.56,1.000) both;
+        border: 1.5px solid #e3e9f3;
+    }
+    .about-team-card:hover {
+        box-shadow: 0 8px 32px rgba(26,79,160,0.16);
+        transform: translateY(-6px) scale(1.04);
+        border-color: #1a4fa0;
+    }
+    .about-team-photo img {
+        width: 96px;
+        height: 96px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 1.1rem;
+        border: 3px solid #1a4fa0;
+        box-shadow: 0 2px 12px rgba(26,79,160,0.10);
+        background: #eaf1fb;
+    }
+    .about-team-name {
+        font-weight: 700;
+        color: #1a4fa0;
+        margin-bottom: 0.2rem;
+        font-size: 1.18rem;
+        letter-spacing: 0.01em;
+    }
+    .about-team-role {
+        font-size: 1.05rem;
+        color: #3a5c8c;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+    .about-team-desc {
+        font-size: 1.01rem;
+        color: #222;
+        margin-bottom: 0.2rem;
+    }
+    @media (max-width: 900px) {
+        .about-team-section { padding: 1.5rem 0.5rem 1.2rem 0.5rem; }
+        .about-team-row { flex-direction: column; gap: 1.2rem; }
+        .about-team-card { max-width: 100%; }
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(40px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    </style>
+    <style>
+        .about-hero {
+            background: url('assets/images/IMG_0955.jpg') center/cover no-repeat;
+            min-height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .about-hero-overlay {
+            background: rgba(20,30,50,0.68);
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            z-index: 1;
+        }
+        .about-hero-content {
+            position: relative;
+            z-index: 2;
+            color: #fff;
+            text-align: center;
+            padding: 2.5rem 1.2rem;
+        }
+        .about-hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.1rem;
+            font-weight: 700;
+            margin-bottom: 1.2rem;
+            color: #1a4fa0;
+            letter-spacing: 0.01em;
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+        }
+        .about-hero-subtitle {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-bottom: 1.2rem;
+        }
+        .about-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3.5rem 1.5rem 2.5rem 1.5rem;
+        }
+        .about-main {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.5rem;
+            align-items: flex-start;
+            background: linear-gradient(90deg, #f8fafc 60%, #eaf1fb 100%);
+            border-radius: 1.2rem;
+            box-shadow: 0 4px 24px rgba(26,79,160,0.07);
+            padding: 2.2rem 2rem;
+        }
+        .about-main-text {
+            flex: 2 1 340px;
+        }
+        .about-main-image {
+            flex: 1 1 260px;
+            min-width: 220px;
+        }
+        .about-main-image img {
+            width: 100%;
+            border-radius: 1.2rem;
+            box-shadow: 0 8px 32px rgba(26,79,160,0.13);
+            border: 4px solid #1a4fa0;
+        }
+        .about-list {
+            margin: 1.2rem 0 1.5rem 0;
+            padding-left: 1.2rem;
+        }
+        .about-list li {
+            margin-bottom: 0.7rem;
+            font-size: 1.08rem;
+        }
+        .about-vmv-row {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 2.5rem;
+        }
+        .about-vmv-block {
+            background: linear-gradient(120deg, #f8fafc 80%, #eaf1fb 100%);
+            border-radius: 1.1rem;
+            box-shadow: 0 4px 24px rgba(26,79,160,0.10);
+            padding: 2.5rem 2.2rem 2.5rem 2.2rem;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto 2.2rem auto;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .about-vmv-block:hover {
+            box-shadow: 0 8px 32px rgba(26,79,160,0.16);
+            transform: translateY(-4px) scale(1.01);
+        }
+        .about-vmv-title {
+            font-weight: 700;
+            font-size: 1.4rem;
+            margin-bottom: 0.7rem;
+            color: #1a4fa0;
+            font-family: 'Playfair Display', serif;
+        }
+        .about-vmv-icon {
+            font-size: 2.2rem;
+            color: #1a4fa0;
+            margin-bottom: 0.7rem;
+            background: #eaf1fb;
+            border-radius: 50%;
+            padding: 0.5rem 0.7rem;
+            box-shadow: 0 2px 8px rgba(26,79,160,0.07);
+        }
+        .about-vmv-text, .core-values-list {
+            font-size: 1.13rem;
+            color: #1a2233;
+        }
+        .core-values-list {
+            list-style: disc inside;
+            margin: 0.7rem 0 0 0;
+            padding: 0 0 0 1.2rem;
+        }
+        @media (max-width: 900px) {
+            .about-section { padding: 1.5rem 0.5rem 1.2rem 0.5rem; }
+            .about-vmv-row { flex-direction: column; gap: 1.2rem; }
+            .about-vmv-block { padding: 1.5rem 1.2rem; min-width: 200px; text-align: center; }
+        }
+        .about-vmv-icon {
+            font-size: 2.2rem;
+            color: #1a4fa0;
+            margin-bottom: 0.7rem;
+        }
+        .about-vmv-title {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        .about-vmv-text, .core-values-list {
+            font-size: 1.05rem;
+            color: #222;
+        }
+        .core-values-list {
+            list-style: disc inside;
+            margin: 0.5rem 0 0 0;
+            padding: 0;
+        }
+        .about-history {
+            margin-top: 2.5rem;
+        }
+        .about-history-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a4fa0;
+            margin-bottom: 0.7rem;
+        }
+        .about-history-text {
+            font-size: 1.08rem;
+            color: #222;
+            margin-bottom: 1.2rem;
+        }
+        .about-team-section {
+            margin-top: 2.5rem;
+        }
+        .about-team-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a4fa0;
+            margin-bottom: 0.7rem;
+        }
+        .about-team-row {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .about-team-card {
+            background: #fff;
+            border-radius: 1rem;
+            box-shadow: 0 2px 12px rgba(26,79,160,0.08);
+            padding: 1.2rem 1rem;
+            flex: 1 1 200px;
+            min-width: 180px;
+            text-align: center;
+        }
+        .about-team-photo img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 0.7rem;
+        }
+        .about-team-name {
+            font-weight: 600;
+            color: #1a4fa0;
+            margin-bottom: 0.2rem;
+        }
+        .about-team-role {
+            font-size: 0.98rem;
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+        .about-team-desc {
+            font-size: 0.95rem;
+            color: #222;
+        }
+        @media (max-width: 900px) {
+            .about-main { flex-direction: column; gap: 1.5rem; }
+            .about-vmv-row { flex-direction: column; gap: 1.2rem; }
+            .about-team-row { flex-direction: column; gap: 1.2rem; }
+        }
+        @media (max-width: 900px) {
+            .about-story-row { flex-direction: column !important; gap: 1.5rem !important; }
+            .about-story-divider { display: none !important; }
+        }
+        .about-story-row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 2.5rem;
+            align-items: stretch;
+            margin-bottom: 2.5rem;
+        }
+        .about-story-col {
+            flex: 1 1 340px;
+            background: #f8fafc;
+            border-radius: 1.1rem;
+            box-shadow: 0 4px 24px rgba(26,79,160,0.10);
+            padding: 2.2rem 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .about-story-divider {
+            width: 2px;
+            background: #e3e9f3;
+            min-height: 120px;
+            align-self: stretch;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/cropped-DnR-1.jpg" alt="DnR Engineering Construction Logo">
+                <span>DnR Engineering</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="about-hero">
+        <div class="about-hero-overlay"></div>
+        <div class="about-hero-content">
+            <h1 class="about-hero-title">About DnR Engineering Construction</h1>
+            <div class="about-hero-subtitle">Building Trust, Delivering Excellence Across Ghana</div>
+        </div>
+    </section>
+    <main class="about-section">
+        <section class="about-detailed">
+            <!-- World-Class About Section: Story & What Sets Us Apart -->
+            <section class="about-story-legacy">
+                <div class="about-story-legacy-header" style="text-align:center; margin-bottom:2.5rem;">
+                    <h2 class="about-section-title" style="font-size:2.2rem; color:#1a4fa0; font-family:'Playfair Display',serif; font-weight:800; letter-spacing:0.01em;">
+                        <i class="fas fa-building" style="color:#1a4fa0;"></i> Our Story & What Sets Us Apart
+                    </h2>
+                    <p style="font-size:1.18rem; color:#1a2233; max-width:700px; margin:0.7rem auto 0 auto;">
+                        Discover the legacy, values, and unique strengths that make DnR Engineering Construction a leader in Ghana’s construction industry.
+                    </p>
+                </div>
+                <div class="about-story-legacy-row">
+                    <div class="about-story-legacy-col about-story-legacy-text">
+                        <h3 class="about-section-title" style="margin-top:0; color:#1a4fa0;"><i class="fas fa-history" style="color:#1a4fa0;"></i> Our Story & Legacy</h3>
+                        <p style="font-size:1.13rem; color:#1a2233; line-height:1.7;">
+                            Founded in 2010, DnR Engineering Construction has grown from a passionate team of engineers into one of Ghana’s most respected construction and engineering firms. With over 15 years of experience, we have delivered landmark projects across commercial, industrial, and residential sectors. Our people are our greatest asset—skilled professionals who bring creativity, integrity, and expertise to every challenge.
+                        </p>
+                        <h3 class="about-section-title" style="margin-top:2.2rem; color:#1a4fa0;"><i class="fas fa-star" style="color:#1a4fa0;"></i> What Sets Us Apart</h3>
+                        <ul class="about-list" style="font-size:1.13rem; color:#1a2233; line-height:1.7;">
+                            <li><strong>Comprehensive Project Management:</strong> From concept to completion, we provide end-to-end solutions tailored to each client’s needs.</li>
+                            <li><strong>Technical Expertise:</strong> Our certified engineers and skilled craftsmen leverage modern equipment and best practices to deliver outstanding results.</li>
+                            <li><strong>Client-Centric Approach:</strong> We build lasting relationships through open communication, reliability, and a deep understanding of our clients’ goals.</li>
+                            <li><strong>Proven Track Record:</strong> Our portfolio includes successful delivery of complex projects on time and within budget, earning the trust of leading organizations in Ghana.</li>
+                            <li><strong>Flexible Financing:</strong> We offer flexible payment options to make your project more accessible.</li>
+                            <li><strong>Free Consultations:</strong> We provide no-obligation consultations to help you plan your project with confidence.</li>
+                            <li><strong>Competitive Pricing:</strong> We deliver real value for money on every project.</li>
+                            <li><strong>Trusted by Leading Businesses:</strong> Our clients include top companies and organizations across Ghana.</li>
+                        </ul>
+                    </div>
+                    <div class="about-story-legacy-col about-story-legacy-img">
+                        <img src="assets/images/IMG_0955.jpg" alt="DnR Construction Team at Work" loading="lazy" style="width:100%; border-radius:1.2rem; box-shadow:0 8px 32px rgba(26,79,160,0.13); border:4px solid #1a4fa0;">
+                        <div style="margin-top:1.2rem; text-align:center; color:#1a4fa0; font-weight:600; font-size:1.08rem;">Building Trust, Delivering Excellence</div>
+                    </div>
+                </div>
+            </section>
+            <style>
+            .about-story-legacy-row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 2.5rem;
+                align-items: stretch;
+                margin-bottom: 2.5rem;
+            }
+            .about-story-legacy-col {
+                flex: 1 1 340px;
+                background: #f8fafc;
+                border-radius: 1.1rem;
+                box-shadow: 0 4px 24px rgba(26,79,160,0.10);
+                padding: 2.2rem 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .about-story-legacy-img {
+                align-items: center;
+                justify-content: center;
+                background: #eaf1fb;
+            }
+            @media (max-width: 900px) {
+                .about-story-legacy-row { flex-direction: column !important; gap: 1.5rem !important; }
+                .about-story-legacy-img { padding: 1.2rem 0 !important; }
+            }
+            </style>
+            
+            </style>
+            <hr style="margin:2.5rem 0; border:0; border-top:2px solid #e3e9f3;">
+            <!-- Mission, Vision, Values -->
+            <section class="about-vmv-section" style="margin: 3.5rem 0 2.5rem 0;">
+                <div class="about-vmv-block" style="margin-bottom:2.2rem; box-shadow:0 4px 24px rgba(26,79,160,0.10);">
+                    <div style="display:flex; align-items:center; gap:1rem; margin-bottom:0.7rem;">
+                        <span class="about-vmv-icon"><i class="fas fa-bullseye"></i></span>
+                        <span class="about-vmv-title" style="font-size:1.5rem;">Vision</span>
+                    </div>
+                    <div class="about-vmv-text" style="font-size:1.13rem; line-height:1.7;">Our goal is to lead in transformative engineering and construction by delivering integrated solutions that turn clients’ ideas into reality. We aim to be a trusted partner, empowering innovation, collaboration, and industry excellence.</div>
+                </div>
+                <div class="about-vmv-block" style="margin-bottom:2.2rem; box-shadow:0 4px 24px rgba(26,79,160,0.10);">
+                    <div style="display:flex; align-items:center; gap:1rem; margin-bottom:0.7rem;">
+                        <span class="about-vmv-icon"><i class="fas fa-rocket"></i></span>
+                        <span class="about-vmv-title" style="font-size:1.5rem;">Mission</span>
+                    </div>
+                    <div class="about-vmv-text" style="font-size:1.13rem; line-height:1.7;">Our mission is to deliver innovative, sustainable, and high-quality engineering and construction solutions that enhance the well-being of communities and set new standards for excellence. We are dedicated to empowering our people, nurturing talent, and fostering collaboration to transform visionary ideas into enduring realities. By consistently integrating environmental responsibility, continuous learning, and uncompromising integrity into every project, we strive to create spaces where people can live, work, and thrive—today and for generations to come.</div>
+                </div>
+                <div class="about-vmv-block" style="box-shadow:0 4px 24px rgba(26,79,160,0.10);">
+                    <div style="display:flex; align-items:center; gap:1rem; margin-bottom:0.7rem;">
+                        <span class="about-vmv-icon"><i class="fas fa-gem"></i></span>
+                        <span class="about-vmv-title" style="font-size:1.5rem;">Core Values</span>
+                    </div>
+                    <ul class="core-values-list" style="font-size:1.13rem; line-height:1.7;">
+                        <li><strong>Community Impact:</strong> Enriching lives through accessible, beautiful, and purposeful projects that benefit communities for generations.</li>
+                        <li><strong>Continuous Improvement:</strong> Fostering a culture of learning, growth, and innovation by embracing new technologies and encouraging skill development.</li>
+                        <li><strong>Commitment to Excellence:</strong> Upholding the highest standards in safety, quality, integrity, and project management, with a relentless pursuit of perfection.</li>
+                        <li><strong>Empowering People:</strong> Recognizing people as our greatest asset, nurturing talent, fostering diversity, and empowering every team member to lead and innovate.</li>
+                        <li><strong>Collaboration:</strong> Building strong, cooperative relationships with clients, partners, and communities to achieve shared success and lasting impact.</li>
+                    </ul>
+                </div>
+            </section>
+            <hr style="margin:2.5rem 0; border:0; border-top:2px solid #e3e9f3;">
+            <!-- Commitment -->
+            <div class="about-commitment" style="text-align:center; margin-bottom:2.5rem;">
+                <h3 class="about-section-title"><i class="fas fa-handshake" style="color:#1a4fa0;"></i> Our Commitment</h3>
+                <p style="max-width:700px; margin:0 auto;">
+                    At DnR Engineering Construction, we are driven by a passion for building a better future. We partner with our clients to bring their ambitions to life, delivering projects that make a meaningful difference for people and communities across Ghana.
+                </p>
+                <!-- Diaspora Services Highlight -->
+                <div style="margin:2.5rem auto 0 auto; max-width:700px; background:#f8fafc; border-radius:1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:1.5rem 1.2rem;">
+                    <h4 style="color:#1a4fa0; margin-bottom:0.7rem;"><i class="fas fa-globe-africa"></i> Building for the Diaspora</h4>
+                    <p style="font-size:1.05rem; color:#222;">Are you a Ghanaian abroad looking to build your dream home or invest in Ghana? We offer personalized services for the diaspora, including virtual tours, regular progress updates, and seamless communication. Let us help you create a lasting legacy back home.</p>
+                </div>
+            </div>
+            <!-- Why Choose Us Section -->
+            <div class="about-whychoose-section" style="margin:2.5rem 0;">
+                <h3 class="about-section-title" style="text-align:center;"><i class="fas fa-thumbs-up" style="color:#1a4fa0;"></i> Why Choose DnR Engineering Construction?</h3>
+                <div style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:center; margin-top:1.5rem;">
+                    <div style="background:#f8fafc; border-radius:1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:1.5rem 1.2rem; min-width:220px; max-width:320px; flex:1 1 220px; text-align:center;">
+                        <div style="font-size:2rem; color:#1a4fa0;"><i class="fas fa-award"></i></div>
+                        <div style="font-weight:700; margin:0.7rem 0 0.3rem 0; color:#1a4fa0;">Award-Winning Quality</div>
+                        <div style="font-size:1.05rem; color:#222;">Recognized for excellence and reliability in the Ghanaian construction industry.</div>
+                    </div>
+                    <div style="background:#f8fafc; border-radius:1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:1.5rem 1.2rem; min-width:220px; max-width:320px; flex:1 1 220px; text-align:center;">
+                        <div style="font-size:2rem; color:#1a4fa0;"><i class="fas fa-hand-holding-usd"></i></div>
+                        <div style="font-weight:700; margin:0.7rem 0 0.3rem 0; color:#1a4fa0;">Flexible Financing</div>
+                        <div style="font-size:1.05rem; color:#222;">We make your project affordable and accessible with flexible payment options.</div>
+                    </div>
+                    <div style="background:#f8fafc; border-radius:1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:1.5rem 1.2rem; min-width:220px; max-width:320px; flex:1 1 220px; text-align:center;">
+                        <div style="font-size:2rem; color:#1a4fa0;"><i class="fas fa-comments"></i></div>
+                        <div style="font-weight:700; margin:0.7rem 0 0.3rem 0; color:#1a4fa0;">Free Consultations</div>
+                        <div style="font-size:1.05rem; color:#222;">Get expert advice and a personalized quote at no cost, at your location or online.</div>
+                    </div>
+                    <div style="background:#f8fafc; border-radius:1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:1.5rem 1.2rem; min-width:220px; max-width:320px; flex:1 1 220px; text-align:center;">
+                        <div style="font-size:2rem; color:#1a4fa0;"><i class="fas fa-users"></i></div>
+                        <div style="font-weight:700; margin:0.7rem 0 0.3rem 0; color:#1a4fa0;">Trusted by Leading Businesses</div>
+                        <div style="font-size:1.05rem; color:#222;">We are the partner of choice for top companies and organizations in Ghana.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Clients & Partners Section -->
+            <!-- <div class="about-clients-section" style="margin:2.5rem 0;">
+                <h3 class="about-section-title" style="text-align:center;"><i class="fas fa-briefcase" style="color:#1a4fa0;"></i> Our Clients & Partners</h3>
+                <div style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:center; align-items:center; margin-top:1.5rem;">
+                    <img src="assets/images/client1.png" alt="Client 1" style="height:60px; max-width:120px; object-fit:contain; background:#fff; border-radius:0.5rem; box-shadow:0 2px 8px rgba(26,79,160,0.06); padding:0.5rem;">
+                    <img src="assets/images/client2.png" alt="Client 2" style="height:60px; max-width:120px; object-fit:contain; background:#fff; border-radius:0.5rem; box-shadow:0 2px 8px rgba(26,79,160,0.06); padding:0.5rem;">
+                    <img src="assets/images/client3.png" alt="Client 3" style="height:60px; max-width:120px; object-fit:contain; background:#fff; border-radius:0.5rem; box-shadow:0 2px 8px rgba(26,79,160,0.06); padding:0.5rem;">
+                    <img src="assets/images/client4.png" alt="Client 4" style="height:60px; max-width:120px; object-fit:contain; background:#fff; border-radius:0.5rem; box-shadow:0 2px 8px rgba(26,79,160,0.06); padding:0.5rem;">
+                </div>
+            </div> -->
+
+
+            <!-- Leadership/Team -->
+            <div class="about-team-section">
+                <div class="about-team-header">
+                    <h2 class="about-section-title about-team-gradient-title">
+                        <i class="fas fa-users-cog"></i> Meet Our Leadership
+                    </h2>
+                    <div class="about-team-intro">
+                        Our leadership team brings together decades of experience, technical expertise, and a passion for excellence. Get to know the visionaries guiding DnR Engineering Construction to new heights.
+                    </div>
+                </div>
+                <div class="about-team-row">
+                    <div class="about-team-card">
+                        <div class="about-team-photo"><img src="assets/images/AWUK8089.jpg" alt="Ransford Atiakpo"></div>
+                        <div class="about-team-name">Ransford Atiakpo</div>
+                        <div class="about-team-role">Project Manager</div>
+                        <div class="about-team-desc">Over 5 years of experience in construction management and project delivery.</div>
+                    </div>
+                    <div class="about-team-card">
+                        <div class="about-team-photo"><img src="assets/images/Edem Desu.jpeg" alt="Edem Dave Desu"></div>
+                        <div class="about-team-name">Edem Dave Desu</div>
+                        <div class="about-team-role">Structural Engineer</div>
+                        <div class="about-team-desc">Specialist in structural engineering and quality assurance.</div>
+                    </div>
+                    <div class="about-team-card">
+                        <div class="about-team-photo"><img src="assets/images/Michael Teye.jpeg" alt="Michael Teye"></div>
+                        <div class="about-team-name">Michael Teye</div>
+                        <div class="about-team-role">Site Engineer</div>
+                        <div class="about-team-desc">Expert in sustainable design and innovative architectural solutions.</div>
+                    </div>
+                    <div class="about-team-card">
+                        <div class="about-team-photo"><img src="assets/images/IMG_2001.jpg" alt="Gad Agbemavi"></div>
+                        <div class="about-team-name">Gad Agbemavi</div>
+                        <div class="about-team-role">Site Engineer</div>
+                        <div class="about-team-desc">Experienced in project planning, client relations, and on-site coordination.</div>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin:2.5rem 0; border:0; border-top:2px solid #e3e9f3;">
+            <!-- Safety, Community, Innovation -->
+            <div class="about-extras-row" style="display:flex; flex-wrap:wrap; gap:2.5rem; align-items:stretch;">
+                <div class="about-extras-col" style="flex:1 1 300px; background:#f8fafc; border-radius:1.1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:2rem 1.5rem;">
+                    <h4 style="color:#1a4fa0; margin-bottom:1rem;"><i class="fas fa-shield-alt"></i> Safety & Sustainability</h4>
+                    <p style="font-size:1.05rem; color:#222;">At DnR Engineering Construction, safety is not just a priority—it's a core value. We are committed to maintaining the highest standards of health, safety, and environmental stewardship on every project. Our teams undergo rigorous training, and we implement best-in-class safety protocols to protect our people, clients, and communities.</p>
+                    <p style="font-size:1.05rem; color:#222;">Sustainability is at the heart of our operations. We integrate eco-friendly practices, energy-efficient solutions, and responsible resource management into our projects, ensuring a positive impact on the environment and future generations.</p>
+                </div>
+                <div class="about-extras-col" style="flex:1 1 300px; background:#f8fafc; border-radius:1.1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:2rem 1.5rem;">
+                    <h4 style="color:#1a4fa0; margin-bottom:1rem;"><i class="fas fa-hands-helping"></i> Community Engagement</h4>
+                    <p style="font-size:1.05rem; color:#222;">We believe in giving back to the communities where we work. DnR Engineering Construction supports local initiatives, educational programs, and charitable organizations. We actively engage with stakeholders to understand their needs and contribute to social and economic development, fostering long-term partnerships and shared prosperity.</p>
+                </div>
+                <div class="about-extras-col" style="flex:1 1 300px; background:#f8fafc; border-radius:1.1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:2rem 1.5rem;">
+                    <h4 style="color:#1a4fa0; margin-bottom:1rem;"><i class="fas fa-lightbulb"></i> Innovation & Technology</h4>
+                    <p style="font-size:1.05rem; color:#222;">Embracing innovation is key to our success. We leverage the latest construction technologies, digital tools, and modern equipment to enhance project delivery, improve efficiency, and ensure quality. Our commitment to continuous improvement drives us to adopt new methods and stay ahead in a rapidly evolving industry.</p>
+                </div>
+            </div>
+            <hr style="margin:2.5rem 0; border:0; border-top:2px solid #e3e9f3;">
+            <!-- Testimonials -->
+            <div class="about-testimonials-section" style="text-align:center;">
+                <h3 class="about-section-title"><i class="fas fa-quote-left" style="color:#1a4fa0;"></i> What Our Clients Say</h3>
+                <div class="about-testimonials-row" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top:1.5rem;">
+                    <div class="about-testimonial-card" style="background: #fff; border-radius: 1rem; box-shadow: 0 4px 24px rgba(26,79,160,0.08); padding: 1.5rem 1.2rem; max-width: 340px; min-width: 220px; flex: 1 1 220px; display: flex; flex-direction: column; align-items: center;">
+                        <div class="about-testimonial-quote" style="font-style: italic; color: #1a4fa0; margin-bottom: 1rem;">“DnR Engineering Construction built my dream home and exceeded my expectations in every way possible. They were professional, reliable, and completed the project within the agreed timeline. I highly recommend them for any construction project.”</div>
+                        <div class="about-testimonial-client" style="font-weight: 600; color: #222;">— Kwame Amankwah</div>
+                    </div>
+                    <div class="about-testimonial-card" style="background: #fff; border-radius: 1rem; box-shadow: 0 4px 24px rgba(26,79,160,0.08); padding: 1.5rem 1.2rem; max-width: 340px; min-width: 220px; flex: 1 1 220px; display: flex; flex-direction: column; align-items: center;">
+                        <div class="about-testimonial-quote" style="font-style: italic; color: #1a4fa0; margin-bottom: 1rem;">“I hired DnR for a commercial project and was impressed with their attention to detail and quality workmanship. They worked within my budget and delivered the project on time. I will definitely hire them again for future projects.”</div>
+                        <div class="about-testimonial-client" style="font-weight: 600; color: #222;">— Grace Mensah</div>
+                    </div>
+                    <div class="about-testimonial-card" style="background: #fff; border-radius: 1rem; box-shadow: 0 4px 24px rgba(26,79,160,0.08); padding: 1.5rem 1.2rem; max-width: 340px; min-width: 220px; flex: 1 1 220px; display: flex; flex-direction: column; align-items: center;">
+                        <div class="about-testimonial-quote" style="font-style: italic; color: #1a4fa0; margin-bottom: 1rem;">“DnR transformed my old family home into a modern and functional home that I love spending time in. Their team was professional and friendly, and they kept me informed throughout the entire process. I highly recommend them for any remodelling project.”</div>
+                        <div class="about-testimonial-client" style="font-weight: 600; color: #222;">— Kofi Adu</div>
+                    </div>
+                </div>
+                <!-- Call to Action -->
+                <div style="margin-top:2.5rem;">
+                    <a href="mailto:info@dnrengineering.com?subject=Free%20Consultation%20Request" style="display:inline-block; background:#1a4fa0; color:#fff; font-weight:600; padding:1rem 2.2rem; border-radius:2rem; font-size:1.15rem; box-shadow:0 2px 12px rgba(26,79,160,0.10); text-decoration:none; transition:background 0.2s;">Get a Free Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" style="margin-top:2.5rem;">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <img src="assets/images/cropped-DnR-1.jpg" alt="DnR Engineering Construction Logo" class="footer-logo">
+                    <div>
+                        <span class="footer-company">DnR Engineering Consult</span>
+                        <p class="footer-desc">
+                            Premier engineering and construction solutions in Ghana. Building trust, delivering excellence.
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#projects">Projects</a></li>
+                        <li><a href="about.html#team">Team</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@dnrengineering.com" style="text-decoration:none;">info@dnrengineering.com</a></li>
+                        <li><i class="fas fa-phone"></i> 0550760606 / 0208284018</li>
+                        <li><i class="fas fa-map-marker-alt"></i> East Legon, Accra, Ghana</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="footer-social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2025 DnR Engineering Consult. All rights reserved.</span>
+            <span class="footer-powered">Powered by <a href="#" target="_blank" rel="noopener" class="footer-powered-link">E7 Technology Solutions</a></span>
+        </div>
+    </footer>
+</body>
+</html>

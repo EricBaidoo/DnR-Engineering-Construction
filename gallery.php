@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery | DnR Engineering Construction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #f8fafc; margin: 0; }
+        .gallery-container { max-width: 1200px; margin: 2rem auto; padding: 1rem; }
+        .gallery-header { text-align: center; margin-bottom: 2rem; }
+        .gallery-title { font-size: 2.2rem; font-weight: 700; color: #1a4fa0; margin-bottom: 0.5rem; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
+        .gallery-item { background: #fff; border-radius: 1rem; box-shadow: 0 4px 24px rgba(26,79,160,0.08); overflow: hidden; transition: transform 0.2s; }
+        .gallery-item:hover { transform: scale(1.03); }
+        .gallery-img { width: 100%; height: 220px; object-fit: cover; display: block; }
+        @media (max-width: 600px) {
+            .gallery-title { font-size: 1.3rem; }
+            .gallery-img { height: 120px; }
+        }
+    </style>
+</head>
+<body>
+    <?php include 'header.php'; ?>
+    
+     <div class="gallery-container">
+        <div class="gallery-header">
+            <h1 class="gallery-title"><i class="fas fa-images"></i> Our Gallery</h1>
+            <p>Explore photos from our projects, team, and events.</p>
+        </div>
+        <div class="gallery-grid">
+            <!-- All images in the images folder -->
+            <div class="gallery-item">
+                <img src="assets/images/069463DE-5533-4F3C-A462-3DBD25BB0453.jpg" alt="Project 1" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/111-1.jpg" alt="Project 2" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/2075A308-69D1-49FF-B14B-A040CA4172BF.jpg" alt="Project 3" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/586387AC-6C46-4129-948D-A9C436842712.jpg" alt="Project 4" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/5A32E4D3-B902-4ABC-944A-55576E25E5C8.jpg" alt="Project 5" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/5B085196-E579-41B2-B9F3-DF85BBB914DB.jpg" alt="Project 6" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/6C48DAC8-02BF-4700-B476-167EB4CD0F47.jpg" alt="Project 7" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/7FFF0EFB-86D2-4C6B-B751-1A27F4394DA3.jpg" alt="Project 8" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/8ABF0295-1A0E-415B-8761-F0B363B85EAB.jpg" alt="Project 9" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/9000ACC5-F739-4EE3-B78A-43772E5B1D2B.JPG" alt="Project 10" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/989D2955-111F-4487-85CF-5CA6AF7AEA65.jpg" alt="Project 11" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/AWUK8089.jpg" alt="Team 1" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/B7A83818-24D3-4185-AF39-357252778C08.jpg" alt="Project 12" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/BC90DBE6-8695-4A2D-9921-B23125D0667F.jpg" alt="Project 13" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/cropped-DnR-1.jpg" alt="DnR Logo" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/des.jpg" alt="Design Image" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/Edem Desu.jpeg" alt="Team 2" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/F2F35D35-9AE2-4C96-A51F-79FBD479864F.jpg" alt="Project 14" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/F8C0543A-2A02-41EC-A2A8-2B11388D4C97.jpg" alt="Project 15" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/GAD.jpeg" alt="Team 4" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/image-5.png" alt="Image 5" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0003.jpg" alt="Project 16" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0004.jpg" alt="Project 17" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0005.jpg" alt="Project 18" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0006.jpg" alt="Project 19" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0007.jpg" alt="Project 20" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0008.jpg" alt="Project 21" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0009.jpg" alt="Project 22" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0010.jpg" alt="Project 23" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0011.jpg" alt="Project 24" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0012.jpg" alt="Project 25" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0013.jpg" alt="Project 26" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0014.jpg" alt="Project 27" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0015.jpg" alt="Project 28" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0016.jpg" alt="Project 29" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0017.jpg" alt="Project 30" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0018.jpg" alt="Project 31" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0019.jpg" alt="Project 32" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0020.jpg" alt="Project 33" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0021.jpg" alt="Project 34" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0022.jpg" alt="Project 35" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0023.jpg" alt="Project 36" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0024.jpg" alt="Project 37" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0025.jpg" alt="Project 38" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0026.jpg" alt="Project 39" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0027.jpg" alt="Project 40" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0028.jpg" alt="Project 41" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0029.jpg" alt="Project 42" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0030.jpg" alt="Project 43" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0031.jpg" alt="Project 44" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0032.jpg" alt="Project 45" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0033.jpg" alt="Project 46" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0034.jpg" alt="Project 47" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0035.jpg" alt="Project 48" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0036.jpg" alt="Project 49" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0037.jpg" alt="Project 50" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250801-WA0038.jpg" alt="Project 51" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0018.HEIC" alt="Image 6" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0024.HEIC" alt="Image 7" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0060.jpg" alt="Image 8" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0075.jpg" alt="Image 9" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0096.jpg" alt="Image 10" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0124.jpg" alt="Image 11" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0125.jpg" alt="Image 12" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0127.jpg" alt="Image 13" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0186.jpg" alt="Project 6" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0187.jpg" alt="Image 14" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0193.JPG" alt="Image 15" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0218.PNG" alt="Image 16" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0367.jpg" alt="Image 17" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0384.HEIC" alt="Image 18" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0386.HEIC" alt="Image 19" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0409.HEIC" alt="Image 20" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0426.jpg" alt="Image 21" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0470.HEIC" alt="Image 22" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0473.HEIC" alt="Image 23" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0499.jpg" alt="Project 4" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0507.jpg" alt="Project 5" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0709.JPG" alt="Image 24" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0801.jpg" alt="Image 25" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0911.jpg" alt="Image 26" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0925.jpg" alt="Image 27" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_0955.jpg" alt="Image 28" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_1125.jpg" alt="Image 29" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_1687.JPG" alt="Image 30" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_1774.JPG" alt="Image 31" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_1779.JPG" alt="Image 32" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_1781.JPG" alt="Image 33" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_2099.jpg" alt="Image 34" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_2100.jpg" alt="Image 35" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_2455.jpg" alt="Image 36" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_2459.jpg" alt="Image 37" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_2621.jpg" alt="Image 38" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_3883.JPG" alt="Image 39" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_3885.JPG" alt="Image 40" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4314.jpg" alt="Image 41" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4315.jpg" alt="Image 42" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4357.JPG" alt="Image 43" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4368.JPG" alt="Image 44" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4370.jpg" alt="Image 45" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4382.jpg" alt="Image 46" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4440.jpg" alt="Image 47" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4445.jpg" alt="Image 48" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4478.JPG" alt="Image 49" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4479.JPG" alt="Image 50" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4482.JPG" alt="Image 51" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_4489.JPG" alt="Image 52" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_5863.JPG" alt="Image 53" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_6227.HEIC" alt="Image 54" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_6449.HEIC" alt="Image 55" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_6450.HEIC" alt="Image 56" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_6451.HEIC" alt="Image 57" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG_7150.HEIC" alt="Image 58" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/Michael Teye.jpeg" alt="Team 3" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/pexels-pixabay-271667-scaled.jpg" alt="Image 59" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/post-3.jpg" alt="Image 60" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/Untitled-1-02.png" alt="Image 61" class="gallery-img">
+            </div>
+        </div>
+    </div>
+    
+
+
+<!-- FOOTER  -->
+    <?php include 'footer.php'; ?>
