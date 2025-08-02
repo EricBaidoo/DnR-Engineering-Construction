@@ -364,16 +364,16 @@
         0% { transform: translateX(0); }
         100% { transform: translateX(-50%); }
     }
-    @media (max-width: 600px) {
+    @media (max-width: 37.5em) {
         .companies-section h3 { font-size: 1.1rem; }
-        .company-card img { height: 38px !important; }
+        .company-card img { height: 2.375rem !important; }
         .company-card div { font-size: 0.85rem !important; }
         .companies-list { padding: 0 0.5rem !important; }
     }
     /* Professional Hero Swiper Enhancements */
-    .hero { position: relative; min-height: 60px; background: #f8fafc; overflow: hidden; }
+    .hero { position: relative; min-height: 3.75rem; background: #f8fafc; overflow: hidden; width:99%; }
     .hero .swiper-slide {
-      min-height: 60px;
+      min-height: 3.75rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -382,6 +382,7 @@
       background-size: cover !important;
       background-position: center !important;
       background-repeat: no-repeat !important;
+      width:99%;
     }
     /* Overlay removed from Swiper slides */
     .hero .container {
@@ -389,17 +390,18 @@
       z-index: 2;
       color: #fff;
       text-align: center;
-      max-width: 700px;
+      max-width: 50rem;
       margin: 0 auto;
       padding: 2.2rem 1.2rem;
       border-radius: 1.2rem;
-      box-shadow: 0 4px 32px rgba(26,79,160,0.10);
+      box-shadow: 0 0.25rem 2rem rgba(26,79,160,0.10);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       min-height: 100%;
       background: none;
+      width:99%;
     }
     .hero .hero-text-bg {
       background: rgba(20, 30, 50, 0.68);
@@ -407,54 +409,95 @@
       padding: 1.2rem 1.2rem 1.2rem 1.2rem;
       display: inline-block;
       margin: 0 auto;
-      box-shadow: 0 4px 32px rgba(26,79,160,0.10);
+      box-shadow: 0 0.25rem 2rem rgba(26,79,160,0.10);
       max-width: 100%;
+      width:99%;
     }
-    .hero .hero-title { font-family: 'Playfair Display', serif; font-size: 2.7rem; font-weight: 700; line-height: 1.1; margin-bottom: 1.1rem; color: #fff; text-align: center; }
+    .hero .hero-title { font-family: 'Playfair Display', serif; font-size: 2.7rem; font-weight: 700; line-height: 1.1; margin-bottom: 1.1rem; color: #fff; text-align: center; width:99%; }
     .hero .highlight { color: #ffd700; }
-    .hero .hero-tagline { font-size: 1.2rem; font-weight: 500; margin-bottom: 0.7rem; letter-spacing: 0.03em; color: #e3e9f3; }
-    .hero .hero-subtitle { font-size: 1.1rem; font-weight: 400; margin-bottom: 1.5rem; color: #f3f6fa; }
-    .hero .hero-actions { margin-bottom: 1.5rem; }
-    .hero .btn-primary, .hero .btn-secondary { font-size: 1rem; padding: 0.7rem 1.6rem; border-radius: 2rem; margin-right: 0.7rem; }
+    .hero .hero-tagline { font-size: 1.2rem; font-weight: 500; margin-bottom: 0.7rem; letter-spacing: 0.03em; color: #e3e9f3; width:99%; }
+    .hero .hero-subtitle { font-size: 1.1rem; font-weight: 400; margin-bottom: 1.5rem; color: #f3f6fa; width:99%; }
+    .hero .hero-actions { margin-bottom: 1.5rem; width:99%; }
+    .hero .btn-primary, .hero .btn-secondary { font-size: 1rem; padding: 0.7rem 1.6rem; border-radius: 2rem; margin-right: 0.7rem; width:99%; }
     .hero .btn-primary { background: #ffd700; color: #1a4fa0; border: none; font-weight: 600; }
     .hero .btn-primary:hover { background: #fff; color: #1a4fa0; }
-    .hero .btn-secondary { background: rgba(255,255,255,0.18); color: #fff; border: 1.5px solid #fff; font-weight: 500; }
+    .hero .btn-secondary { background: rgba(255,255,255,0.18); color: #fff; border: 0.094em solid #fff; font-weight: 500; }
     .hero .btn-secondary:hover { background: #fff; color: #1a4fa0; }
-    .hero .hero-icons { margin-bottom: 1.2rem; }
-    .hero .hero-icon { font-size: 1.5rem; margin-right: 0.7rem; color: #ffd700; }
-    .hero .hero-stats { display: flex; gap: 2.2rem; margin-bottom: 1.2rem; }
-    .hero .hero-stat { text-align: center; }
-    .hero .hero-stat-number { font-size: 1.5rem; font-weight: 700; color: #ffd700; }
-    .hero .hero-stat-label { display: block; font-size: 0.95rem; color: #fff; }
-    .hero .hero-credibility { margin-top: 1.2rem; display: flex; gap: 1.2rem; align-items: center; }
-    .hero .hero-credibility img { height: 38px; background: #fff; border-radius: 0.5rem; padding: 0.2rem 0.7rem; box-shadow: 0 2px 12px rgba(26,79,160,0.08); }
+    .hero .hero-icons { margin-bottom: 1.2rem; width:99%; }
+    .hero .hero-icon { font-size: 1.5rem; margin-right: 0.7rem; color: #ffd700; width:99%; }
+    .hero .hero-stats { display: flex; gap: 2.2rem; margin-bottom: 1.2rem; width:99%; }
+    .hero .hero-stat { text-align: center; width:99%; }
+    .hero .hero-stat-number { font-size: 1.5rem; font-weight: 700; color: #ffd700; width:99%; }
+    .hero .hero-stat-label { display: block; font-size: 0.95rem; color: #fff; width:99%; }
+    .hero .hero-credibility { margin-top: 1.2rem; display: flex; gap: 1.2rem; align-items: center; width:99%; }
+    .hero .hero-credibility img { height: 2.375rem; background: #fff; border-radius: 0.5rem; padding: 0.2rem 0.7rem; box-shadow: 0 0.125rem 0.75rem rgba(26,79,160,0.08); width:99%; }
     /* Swiper navigation and pagination */
     .hero .swiper-button-next, .hero .swiper-button-prev {
       color: #ffd700;
       background: rgba(26,79,160,0.7);
       border-radius: 50%;
-      width: 48px; height: 48px;
+      width: 2.5rem;
+      height: 2.5rem;
       top: 50%;
       transform: translateY(-50%);
-      box-shadow: 0 2px 12px rgba(26,79,160,0.12);
+      box-shadow: 0 0.125rem 0.75rem rgba(26,79,160,0.12);
       transition: background 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      border: none;
     }
-    .hero .swiper-button-next:hover, .hero .swiper-button-prev:hover { background: #ffd700; color: #1a4fa0; }
-    .hero .swiper-pagination-bullet { background: #fff; opacity: 0.7; border: 2px solid #ffd700; width: 13px; height: 13px; }
-    .hero .swiper-pagination-bullet-active { background: #ffd700; opacity: 1; }
-    @media (max-width: 900px) {
-      .hero .container { padding: 0.5rem 0.2rem; margin: 0 auto; }
+    .hero .swiper-button-next:hover, .hero .swiper-button-prev:hover {
+      background: #ffd700;
+      color: #1a4fa0;
+    }
+    .hero .swiper-pagination-bullet {
+      background: #fff;
+      opacity: 0.7;
+      border: 0.125em solid #ffd700;
+      width: 1em;
+      height: 1em;
+      margin: 0 0.3em;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background 0.2s, border 0.2s;
+    }
+    .hero .swiper-pagination-bullet-active {
+      background: #ffd700;
+      opacity: 1;
+      border-color: #1a4fa0;
+    }
+    @media (max-width: 56.25em) {
+      .hero .container { padding: 0.5rem 0.2rem; margin: 0 auto; width:99%; }
       .hero .hero-title { font-size: 1.1rem; }
       .hero .hero-stats { gap: 0.5rem; }
+      .hero .swiper-button-next, .hero .swiper-button-prev {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.2rem;
+      }
+      .hero .swiper-pagination-bullet {
+        width: 0.8em;
+        height: 0.8em;
+      }
     }
-    @media (max-width: 600px) {
-      .hero, .hero .swiper-slide { min-height: 60px; }
-      .hero .container { padding: 0.2rem 0.1rem; margin: 0 auto; }
+    @media (max-width: 37.5em) {
+      .hero, .hero .swiper-slide { min-height: 3.75rem; width:99%; }
+      .hero .container { padding: 0.2rem 0.1rem; margin: 0 auto; width:99%; }
       .hero .hero-title { font-size: 0.7rem; }
       .hero .hero-tagline, .hero .hero-subtitle { font-size: 0.55rem; }
       .hero .hero-stats { flex-direction: column; gap: 0.1rem; }
-      .hero .hero-credibility img { height: 12px; }
-      .hero .swiper-button-next, .hero .swiper-button-prev { width: 14px; height: 14px; font-size: 0.7rem; }
+      .hero .hero-credibility img { height: 0.75rem; }
+      .hero .swiper-button-next, .hero .swiper-button-prev {
+        width: 1.2rem;
+        height: 1.2rem;
+        font-size: 0.9rem;
+      }
+      .hero .swiper-pagination-bullet {
+        width: 0.6em;
+        height: 0.6em;
+      }
     }
     </style>
 <?php include 'footer.php'; ?>
