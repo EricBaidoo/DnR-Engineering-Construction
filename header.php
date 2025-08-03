@@ -12,7 +12,7 @@
     <meta name="keywords" content="construction, engineering, Ghana, building, contractor">
     <meta name="author" content="DnR Engineering Construction">
 
-    <title>DnR Engineering Construction - Building Tomorrow Today</title>
+    <title>DnR Engineering & Construction - We build the future</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/cropped-DnR-1.jpg">
@@ -173,8 +173,8 @@
     <nav class="navbar">
         <div class="container">
             <a href="index.php" class="logo">
-                <img src="assets/images/cropped-DnR-1.jpg" alt="DnR Engineering Construction Logo">
-                <span>DnR Engineering Construction</span>
+                <img src="assets/images/cropped-DnR-1.jpg" alt="DnR Engineering & Construction Logo">
+                <span>DnR Engineering & Construction</span>
             </a>
             <ul class="nav-links">
                 <li><a href="index.php" class="active">Home</a></li>

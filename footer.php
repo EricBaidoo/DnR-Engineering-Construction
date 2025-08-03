@@ -34,10 +34,25 @@
                 <!-- Contact Info -->
                 <div class="footer-contact" style="text-align: center;">
                     <h4>Contact</h4>
-                    <ul>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:dnr.eng.consult@gmail.com" style="text-decoration:none;">info@dnrengineering.com</a></li>
-                        <li><i class="fas fa-phone"></i> 0550760606 / 0208284018</li>
-                        <li><i class="fas fa-map-marker-alt"></i> East Legon, Accra, Ghana</li>
+                    <ul style="display: flex; flex-direction: column; align-items: center; padding-left: 0;">
+                        <li style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5em; text-align: center;">
+                            <span style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <a href="mailto:dnr.eng.consult@gmail.com" style="text-decoration:none;">info@dnrengineering.com</a>
+                        </li>
+                        <li style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5em; text-align: center;">
+                            <span style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-phone"></i>
+                            </span>
+                            0550760606 / 0208284018
+                        </li>
+                        <li style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5em; text-align: center;">
+                            <span style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </span>
+                            East Legon, Accra, Ghana
+                        </li>
                     </ul>
                 </div>
                 <!-- Social Media -->
