@@ -100,6 +100,34 @@
                 </div>
             </div>
         </div>
+        <!-- Design and Build -->
+        <div class="service-detail-row">
+            <div class="service-detail-block" id="design-build">
+                <div class="service-detail-image">
+                    <img src="assets\images\pexels-lukas-hartmann-304281-1719477.jpg" alt="Design and Build">
+                </div>
+                <div class="service-detail-content">
+                    <h2><i class="fas fa-project-diagram accent-icon"></i> Design and Build</h2>
+                    <p>
+                        Our design and build service offers a streamlined approach to project delivery, integrating design and construction under one contract. This method reduces risks, accelerates timelines, and enhances collaboration. Our team works closely with clients to develop innovative solutions that meet their specific needs while ensuring cost efficiency and quality.
+                    </p>
+                    <ul class="service-detail-list">
+                        <li>Single point of responsibility: Simplifying communication and accountability.</li>
+                        <li>Collaborative design process: Engaging clients in every step to ensure their vision is realized.</li>
+                        <li>Fast-tracked project delivery: Overlapping design and construction phases to save time.</li>
+                        <li>Cost-effective solutions: Leveraging our expertise to optimize materials and methods.</li>
+                    </ul>
+                    <div class="service-testimonial">
+                        <blockquote>
+                            “The design-build approach saved us months of time and the results exceeded our expectations.”<br>
+                            <span>— Client, Mixed-Use Development</span>
+                        </blockquote>
+                    </div>
+                    <button onclick="window.location.href='index.html#contact'" class="btn-service-cta">
+                        <i class="fas fa-comments"></i> Request Consultation
+                    </button>
+                </div>
+            </div>
 
         <!-- Renovation & Maintenance -->
         <div class="service-detail-row">

@@ -1,161 +1,95 @@
-
- <?php include 'header.php'; ?>
+<?php include 'header.php'; ?>
     <!-- =======================
          HERO SECTION (Swiper Slider)
     ======================== -->
-    <section class="hero" id="home">
-      <div class="swiper hero-swiper">
-        <div class="swiper-wrapper">
-          <!-- Slide 1 -->
-          <div class="swiper-slide" style="background-image:url('assets/images/IMG-20250801-WA0003.jpg'); background-size:cover; background-position:center;">
-            <div class="container">
-              <div class="hero-text-bg">
-            <div class="hero-accent-bar"></div>
-            <div class="hero-tagline">Building Trust, Delivering Excellence</div>
-            <h1 class="hero-title">DnR Engineering <span class="highlight">Construction</span></h1>
-            <div class="hero-subtitle">Transforming Ghana’s skyline with innovative engineering and construction solutions for every sector.</div>
-              </div>
-            </div>
-          </div>
-          <!-- Slide 2 -->
-          <div class="swiper-slide" style="background-image:url('assets/images/IMG-20250801-WA0007.jpg'); background-size:cover; background-position:center;">
-            <div class="container">
-              <div class="hero-text-bg">
-            <div class="hero-accent-bar"></div>
-            <div class="hero-tagline">Innovative Designs, Lasting Impact</div>
-            <h1 class="hero-title">Residential & Commercial <span class="highlight">Excellence</span></h1>
-            <div class="hero-subtitle">Creating modern homes and commercial spaces that blend style, comfort, and sustainability.</div>
-              </div>
-            </div>
-          </div>
-          <!-- Slide 3 -->
-          <div class="swiper-slide" style="background-image:url('assets/images/IMG-20250801-WA0004.jpg'); background-size:cover; background-position:center;">
-            <div class="container">
-              <div class="hero-text-bg">
-            <div class="hero-accent-bar"></div>
-            <div class="hero-tagline">Expert Supervision & Maintenance</div>
-            <h1 class="hero-title">Quality, Safety, <span class="highlight">Reliability</span></h1>
-            <div class="hero-subtitle">Ensuring every project is delivered safely, on schedule, and to the highest standards.</div>
-              </div>
-            </div>
-          </div>
-          <!-- Slide 4 -->
-          <div class="swiper-slide" style="background-image:url('assets/images/IMG-20250801-WA0006.jpg'); background-size:cover; background-position:center;">
-            <div class="container">
-              <div class="hero-text-bg">
-            <div class="hero-accent-bar"></div>
-            <div class="hero-tagline">Modern Infrastructure Solutions</div>
-            <h1 class="hero-title">Engineering <span class="highlight">Progress</span></h1>
-            <div class="hero-subtitle">Delivering robust infrastructure for industries, communities, and future generations.</div>
-              </div>
-            </div>
-          </div>
-          <!-- Slide 5 -->
-          <div class="swiper-slide" style="background-image:url('assets/images/IMG-20250801-WA0007.jpg'); background-size:cover; background-position:center;">
-            <div class="container">
-              <div class="hero-text-bg">
-            <div class="hero-accent-bar"></div>
-            <div class="hero-tagline">Client-Focused Approach</div>
-            <h1 class="hero-title">Your Vision, <span class="highlight">Our Mission</span></h1>
-            <div class="hero-subtitle">Partnering with you from concept to completion for results that exceed expectations.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        </div>
-        <!-- Swiper navigation -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
+    <?php include 'hero-section.php'; ?>
 
 
     <!-- =======================
          ABOUT SECTION
     ======================== -->
-    <section class="about" id="about">
-        <div class="about-container">
-            <!-- Main About Row: Full Width -->
+    <!-- ======= START OF ABOUT SECTION ======= -->
+    <section class="about" id="about" style="padding: 0; margin-bottom: 0;">
+        <div class="about-container" style="background: linear-gradient(120deg, #eaf2fb 0%, #f5f8ff 100%); border-radius: 1.5em; box-shadow: 0 0.5em 2em rgba(26,79,160,0.10); padding: 2em 1.5em 0 1.5em; margin-bottom: 0;">
             <div class="about-row about-row-main animate-fadein" tabindex="0" style="width:100%; display:block;">
-                <div class="about-col about-col-text" style="width:100%; max-width:100%; margin:0 auto;">
-                    <div class="about-header" style="margin-bottom: 0.7rem;">
-                        <div class="about-accent-bar" style="margin:0 auto; display:block;"></div>
-                        <h2 class="about-title" style="margin-bottom:0.3rem; text-align:center; width:100%;"><span class="about-title-accent">About</span> DnR Engineering Construction</h2>
-                    </div>
-                    <p class="about-text" style="margin-bottom:0.7rem;">
-                        <i class="fas fa-building about-icon"></i>
-                        DnR Engineering Construction is a leading construction and engineering company in Ghana, dedicated to delivering innovative, 
-                        reliable, and high-quality solutions for commercial, industrial, and residential projects. With over 15 years of experience, 
-                        our team of expert engineers and craftsmen transform visions into reality, ensuring every project is built on trust, safety, and excellence.
+                <div class="about-col about-col-text" style="width:100%; max-width:100%; margin:0 auto; background:#fff; border-radius:1.2em; box-shadow:0 0.25em 1.5em rgba(26,79,160,0.08); padding:2em 2em;">
+                    <header class="about-header" style="margin-bottom: 1.2em;">
+                        <div class="about-accent-bar" style="margin:0 auto 0.7em auto; width:4.5em; height:0.32em; background:#1a4fa0; border-radius:0.16em;"></div>
+                        <h2 class="about-title" style="margin-bottom:0.5em; text-align:center; font-size:2.2em; font-weight:700; color:#1a4fa0;">
+                            <span class="about-title-accent" style="color:#4fc3f7;">About</span> <span style="color:#1a4fa0;">DnR Engineering Construction</span>
+                        </h2>
+                    </header>
+                    <p class="about-text" style="margin-bottom:1.2em; font-size:1.15em; color:#222; line-height:1.8;">
+                        <i class="fas fa-building about-icon" style="color:#1a4fa0; margin-right:0.5em;"></i>
+                        DnR is a trusted engineering and construction firm dedicated to delivering high-quality projects on time and within budget. Our team of experts combines innovative solutions with meticulous attention to detail to bring your vision to life.<br>
+                        At DnR, we pride ourselves on a legacy of precision, reliability, and a passion for excellence. Each project is approached not just as a task, but as an opportunity to surpass expectations—transforming ambitious concepts into enduring realities.<br>
+                        Our multidisciplinary team leverages deep industry experience and forward-thinking innovation to address complex challenges, ensuring seamless execution at every stage. With a steadfast commitment to integrity, safety, and sustainability, we don’t just build structures; we forge lasting partnerships and craft environments where communities and businesses can thrive.
                     </p>
-                    <ul class="about-list" style="margin-bottom:0.7rem;">
-                        <li><i class="fas fa-user-tie"></i> Certified & Experienced Engineers</li>
-                        <li><i class="fas fa-cogs"></i> Modern Equipment & Technology</li>
-                        <li><i class="fas fa-shield-alt"></i> Commitment to Safety & Quality</li>
-                        <li><i class="fas fa-clock"></i> Timely Project Delivery</li>
+                    <ul class="about-list" style="margin-bottom:1.5em; padding-left:0; font-size:1.05em; list-style:none; display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:1.5em;">
+                        <li style="display:flex; align-items:center; gap:1.2em; background:linear-gradient(90deg, #eaf2fb 0%, #d0e6fa 100%); border-radius:1em; padding:1.1em 2em; box-shadow:0 4px 16px rgba(26,79,160,0.10);">
+                            <i class="fas fa-user-tie" style="color:#1a4fa0; background:#fff; border-radius:50%; padding:0.4em; font-size:1.5em; box-shadow:0 2px 8px rgba(26,79,160,0.08);"></i>
+                            <span style="font-weight:600; color:#1a4fa0; font-size:1.08em; letter-spacing:0.01em;">Certified & Experienced Engineers</span>
+                        </li>
+                        <li style="display:flex; align-items:center; gap:1.2em; background:linear-gradient(90deg, #eaf2fb 0%, #d0e6fa 100%); border-radius:1em; padding:1.1em 2em; box-shadow:0 4px 16px rgba(26,79,160,0.10);">
+                            <i class="fas fa-cogs" style="color:#1a4fa0; background:#fff; border-radius:50%; padding:0.4em; font-size:1.5em; box-shadow:0 2px 8px rgba(26,79,160,0.08);"></i>
+                            <span style="font-weight:600; color:#1a4fa0; font-size:1.08em; letter-spacing:0.01em;">Modern Equipment & Technology</span>
+                        </li>
+                        <li style="display:flex; align-items:center; gap:1.2em; background:linear-gradient(90deg, #eaf2fb 0%, #d0e6fa 100%); border-radius:1em; padding:1.1em 2em; box-shadow:0 4px 16px rgba(26,79,160,0.10);">
+                            <i class="fas fa-shield-alt" style="color:#1a4fa0; background:#fff; border-radius:50%; padding:0.4em; font-size:1.5em; box-shadow:0 2px 8px rgba(26,79,160,0.08);"></i>
+                            <span style="font-weight:600; color:#1a4fa0; font-size:1.08em; letter-spacing:0.01em;">Commitment to Safety & Quality</span>
+                        </li>
+                        <li style="display:flex; align-items:center; gap:1.2em; background:linear-gradient(90deg, #eaf2fb 0%, #d0e6fa 100%); border-radius:1em; padding:1.1em 2em; box-shadow:0 4px 16px rgba(26,79,160,0.10);">
+                            <i class="fas fa-clock" style="color:#1a4fa0; background:#fff; border-radius:50%; padding:0.4em; font-size:1.5em; box-shadow:0 2px 8px rgba(26,79,160,0.08);"></i>
+                            <span style="font-weight:600; color:#1a4fa0; font-size:1.08em; letter-spacing:0.01em;">Timely Project Delivery</span>
+                        </li>
                     </ul>
-                    <a href="about.php" class="btn btn-primary about-read-more">
-                        Read More <i class="fas fa-arrow-right"></i>
-                    </a>
-                    <style>
-                        .about-read-more {
-                            display: block !important;
-                            margin: 0.7rem auto 0 auto !important;
-                            width: auto !important;
-                            min-width: 120px;
-                            max-width: 220px;
-                            text-align: center;
-                            font-size: 1rem;
-                            padding: 0.7rem 1.6rem;
-                            border-radius: 2rem;
-                        }
-                    </style>
+                    <div style="display:flex; justify-content:center; align-items:center; width:100%; margin-top:1.2em;">
+                    <!-- Read More button removed -->
                 </div>
             </div>
-            <!-- Mission, Vision, Core Values in One Container -->
-            <div class="about-row about-row-vmv" style="width:100%; display:block; margin-top:2.5rem;">
-                <div class="about-vmv-group" style="width:100%; max-width:1200px; background:#fff; border-radius:1rem; box-shadow:0 4px 24px rgba(26,79,160,0.08); padding:1.2rem 1rem; margin:0 auto; display:flex; flex-wrap:wrap; gap:1.2rem; justify-content:space-between;">
-                    <!-- Mission -->
-                    <div class="about-vmv-block" style="flex:1 1 280px; min-width:220px; display:flex; align-items:center; gap:1.2rem;">
-                        <div class="about-vmv-icon"><i class="fas fa-rocket"></i></div>
-                        <div>
-                        <div class="about-vmv-title" style="font-weight:700; margin-bottom:0.2rem;">Mission</div>
-                        <div class="about-vmv-text" style="margin-bottom:0;">Deliver quality, safe, and innovative projects.</div>
+            <section class="about-vmv-group" style="margin-top:2em; background:#f7faff; border-radius:1.2em; box-shadow:0 4px 24px rgba(26,79,160,0.08); padding:2.5em 0; width:100vw; max-width:100vw; position:relative; left:50%; right:50%; transform:translateX(-50%);">
+                <header class="about-vmv-header" style="text-align:center; margin-bottom:1em;">
+                    <h3 style="color:#1a4fa0; font-size:1.7em; font-weight:700; margin-bottom:0.7em; font-family:'Playfair Display',serif;">Vision, Mission & Core Values</h3>
+                </header>
+                <div class="about-vmv-row" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:2em; justify-content:center; align-items:stretch; margin-bottom:0; color:#1a4fa0;">
+                    <div class="about-vmv-block" style="background:#fff; border-radius:1em; box-shadow:0 2px 12px rgba(26,79,160,0.07); padding:1.2em 1em; display:flex; flex-direction:column; align-items:center; color:#1a4fa0;">
+                        <div style="display:flex; align-items:center; gap:0.7em; margin-bottom:0.5em;">
+                            <span style="font-size:1.3em;"><i class="fas fa-bullseye"></i></span>
+                            <span style="font-size:1.1em; font-weight:600;">Vision</span>
                         </div>
+                        <div style="font-size:1.08em; line-height:1.7; text-align:center;">To shape a better built environment.</div>
                     </div>
-                    <!-- Vision -->
-                    <div class="about-vmv-block" style="flex:1 1 280px; min-width:220px; display:flex; align-items:center; gap:1.2rem;">
-                        <div class="about-vmv-icon"><i class="fas fa-bullseye"></i></div>
-                        <div>
-                        <div class="about-vmv-title" style="font-weight:700; margin-bottom:0.2rem;">Vision</div>
-                        <div class="about-vmv-text" style="margin-bottom:0;">To shape a better built environment.</div>
+                    <div class="about-vmv-block" style="background:#fff; border-radius:1em; box-shadow:0 2px 12px rgba(26,79,160,0.07); padding:1.5em 1.2em; display:flex; flex-direction:column; align-items:center; color:#1a4fa0;">
+                        <div style="display:flex; align-items:center; gap:0.7em; margin-bottom:0.5em;">
+                            <span style="font-size:1.3em;"><i class="fas fa-rocket"></i></span>
+                            <span style="font-size:1.1em; font-weight:600;">Mission</span>
                         </div>
+                        <div style="font-size:1.08em; line-height:1.7; text-align:center;">Deliver quality, sustainable solutions that improve lives and communities.</div>
                     </div>
-                    <!-- Core Values -->
-                    <div class="about-vmv-block" style="flex:1 1 280px; min-width:220px; display:flex; align-items:center; gap:1.2rem;">
-                        <div class="about-vmv-icon"><i class="fas fa-gem"></i></div>
-                        <div>
-                        <div class="about-vmv-title" style="font-weight:700; margin-bottom:0.2rem;">Core Values</div>
-                        <ul class="core-values-list" style="margin:0; padding-left:1.2rem; margin-bottom:0;">
-                            <li style="margin-bottom:0;">Integrity</li>
-                            <li style="margin-bottom:0;">Excellence</li>
-                            <li style="margin-bottom:0;">Teamwork</li>
-                        </ul>
+                    <div class="about-vmv-block" style="background:#fff; border-radius:1em; box-shadow:0 2px 12px rgba(26,79,160,0.07); padding:1.5em 1.2em; display:flex; flex-direction:column; align-items:center; color:#1a4fa0;">
+                        <div style="text-align:center; margin-bottom:0.7em;">
+                            <span style="font-size:1.5em; margin-right:0.5em;"><i class="fas fa-gem"></i></span>
+                            <span style="font-size:1.15em; font-weight:700; letter-spacing:0.01em;">Core Values</span>
+                        </div>
+                        <div style="display:grid; grid-template-columns:1fr; gap:0.7em; font-size:1.08em; line-height:1.7; padding:0; margin:0;">
+                            <div style="background:#f7faff; border-radius:0.8em; padding:0.7em; box-shadow:0 1px 4px rgba(0,0,0,0.03); text-align:left; color:#1a4fa0;"><strong>Integrity</strong></div>
+                            <div style="background:#f7faff; border-radius:0.8em; padding:0.7em; box-shadow:0 1px 4px rgba(0,0,0,0.03); text-align:left; color:#1a4fa0;"><strong>Excellence</strong></div>
+                            <div style="background:#f7faff; border-radius:0.8em; padding:0.7em; box-shadow:0 1px 4px rgba(0,0,0,0.03); text-align:left; color:#1a4fa0;"><strong>Collaboration</strong></div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </section>
+        </div>
+    </div>
+
 
     <!-- =======================
          SERVICES SECTION
     ======================== -->
-    <section class="services" id="services">
-        <div class="services-container">
+    
+        <div class="services-container" style="margin-bottom:1.2em; margin-top:0 !important; padding-top:0;">
             <div class="services-header animate-fadein" tabindex="0">
                 <div class="services-accent-bar"></div>
                 <h2 class="services-title"><span class="services-title-accent">Our</span> Services</h2>
@@ -183,7 +117,16 @@
                     <p class="service-text">Professional oversight to ensure quality, safety, and compliance.</p>
                     <a href="our-service.php#supervision" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
                 </div>
+
                 <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-user-check"></i></div>
+                    <h3 class="service-title">Design and Build</h3>
+                    <p class="service-text">Integrated design and construction services for seamless project delivery.</p>
+                    <a href="our-service.php#design-build" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 5-->
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-tools"></i></div>
                     <h3 class="service-title">Renovation & Maintenance</h3>
@@ -192,13 +135,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    
 
     <!-- =======================
          PROJECTS SECTION
     ======================== -->
     <section class="projects" id="projects">
-        <div class="projects-container">
+        <div class="projects-container" style="margin-bottom:1.2em;">
             <div class="projects-header">
                 <div class="projects-accent-bar"></div>
                 <h2 class="projects-title"><span class="projects-title-accent">Our</span> Projects</h2>
@@ -260,7 +203,7 @@
     ======================== -->
 
     <section class="testimonials" aria-label="Client Testimonials">
-        <div class="testimonials-container animate-fadein" tabindex="0" style="max-width: 1100px; margin: 0 auto; padding: 3rem 1rem; text-align: center;">
+        <div class="testimonials-container animate-fadein" tabindex="0" style="max-width: 1100px; margin: 0 auto; padding: 2em 1em; text-align: center; margin-bottom:1.2em;">
             <div class="testimonials-header" style="margin-bottom: 2rem;">
                 <h2 class="testimonials-title" style="text-align: center;">What Our Clients Say</h2>
             </div>
@@ -285,7 +228,7 @@
          TEAM SECTION
     ======================== -->
     <section class="team" id="team">
-        <div class="team-container">
+        <div class="team-container" style="margin-bottom:1.2em;">
             <div class="team-header">
                 <div class="team-accent-bar"></div>
                 <h2 class="team-title"><span class="team-title-accent">Our</span> Team</h2>
@@ -339,7 +282,7 @@
                 <div class="team-card">
                     <div class="team-image">
                         <div class="team-photo">
-                            <img src="assets/images/GAD.jpeg" alt="Gad Agbemavi - Site Engineer">
+                            <img src="assets images/GAD.jpeg" alt="Gad Agbemavi - Site Engineer">
                         </div>
                     </div>
                     <div class="team-content">
@@ -357,147 +300,41 @@
 
 
     <!-- COMPANIES WE HAVE WORKED FOR SHOULD GO HERE -->
-<!-- iT SHOULD SCROLL HORIZONTALLY -->
+
 
     <style>
-    @keyframes marquee {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(-50%); }
-    }
-    @media (max-width: 37.5em) {
-        .companies-section h3 { font-size: 1.1rem; }
-        .company-card img { height: 2.375rem !important; }
-        .company-card div { font-size: 0.85rem !important; }
-        .companies-list { padding: 0 0.5rem !important; }
-    }
-    /* Professional Hero Swiper Enhancements */
-    .hero { position: relative; min-height: 3.75rem; background: #f8fafc; overflow: hidden; width:99%; }
-    .hero .swiper-slide {
-      min-height: 3.75rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      aspect-ratio: 16/7;
-      background-size: cover !important;
-      background-position: center !important;
-      background-repeat: no-repeat !important;
-      width:99%;
-    }
-    /* Overlay removed from Swiper slides */
-    .hero .container {
-      position: relative;
-      z-index: 2;
-      color: #fff;
-      text-align: center;
-      max-width: 50rem;
-      margin: 0 auto;
-      padding: 2.2rem 1.2rem;
-      border-radius: 1.2rem;
-      box-shadow: 0 0.25rem 2rem rgba(26,79,160,0.10);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100%;
-      background: none;
-      width:99%;
-    }
-    .hero .hero-text-bg {
-      background: rgba(20, 30, 50, 0.68);
-      border-radius: 1.2rem;
-      padding: 1.2rem 1.2rem 1.2rem 1.2rem;
-      display: inline-block;
-      margin: 0 auto;
-      box-shadow: 0 0.25rem 2rem rgba(26,79,160,0.10);
-      max-width: 100%;
-      width:99%;
-    }
-    .hero .hero-title { font-family: 'Playfair Display', serif; font-size: 2.7rem; font-weight: 700; line-height: 1.1; margin-bottom: 1.1rem; color: #fff; text-align: center; width:99%; }
-    .hero .highlight { color: #ffd700; }
-    .hero .hero-tagline { font-size: 1.2rem; font-weight: 500; margin-bottom: 0.7rem; letter-spacing: 0.03em; color: #e3e9f3; width:99%; }
-    .hero .hero-subtitle { font-size: 1.1rem; font-weight: 400; margin-bottom: 1.5rem; color: #f3f6fa; width:99%; }
-    .hero .hero-actions { margin-bottom: 1.5rem; width:99%; }
-    .hero .btn-primary, .hero .btn-secondary { font-size: 1rem; padding: 0.7rem 1.6rem; border-radius: 2rem; margin-right: 0.7rem; width:99%; }
-    .hero .btn-primary { background: #ffd700; color: #1a4fa0; border: none; font-weight: 600; }
-    .hero .btn-primary:hover { background: #fff; color: #1a4fa0; }
-    .hero .btn-secondary { background: rgba(255,255,255,0.18); color: #fff; border: 0.094em solid #fff; font-weight: 500; }
-    .hero .btn-secondary:hover { background: #fff; color: #1a4fa0; }
-    .hero .hero-icons { margin-bottom: 1.2rem; width:99%; }
-    .hero .hero-icon { font-size: 1.5rem; margin-right: 0.7rem; color: #ffd700; width:99%; }
-    .hero .hero-stats { display: flex; gap: 2.2rem; margin-bottom: 1.2rem; width:99%; }
-    .hero .hero-stat { text-align: center; width:99%; }
-    .hero .hero-stat-number { font-size: 1.5rem; font-weight: 700; color: #ffd700; width:99%; }
-    .hero .hero-stat-label { display: block; font-size: 0.95rem; color: #fff; width:99%; }
-    .hero .hero-credibility { margin-top: 1.2rem; display: flex; gap: 1.2rem; align-items: center; width:99%; }
-    .hero .hero-credibility img { height: 2.375rem; background: #fff; border-radius: 0.5rem; padding: 0.2rem 0.7rem; box-shadow: 0 0.125rem 0.75rem rgba(26,79,160,0.08); width:99%; }
-    /* Swiper navigation and pagination */
-    .hero .swiper-button-next, .hero .swiper-button-prev {
-      color: #ffd700;
-      background: rgba(26,79,160,0.7);
-      border-radius: 50%;
-      width: 2.5rem;
-      height: 2.5rem;
-      top: 50%;
-      transform: translateY(-50%);
-      box-shadow: 0 0.125rem 0.75rem rgba(26,79,160,0.12);
-      transition: background 0.2s;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.5rem;
-      border: none;
-    }
-    .hero .swiper-button-next:hover, .hero .swiper-button-prev:hover {
-      background: #ffd700;
-      color: #1a4fa0;
-    }
-    .hero .swiper-pagination-bullet {
-      background: #fff;
-      opacity: 0.7;
-      border: 0.125em solid #ffd700;
-      width: 1em;
-      height: 1em;
-      margin: 0 0.3em;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background 0.2s, border 0.2s;
-    }
-    .hero .swiper-pagination-bullet-active {
-      background: #ffd700;
-      opacity: 1;
-      border-color: #1a4fa0;
-    }
-    @media (max-width: 56.25em) {
-      .hero .container { padding: 0.5rem 0.2rem; margin: 0 auto; width:99%; }
-      .hero .hero-title { font-size: 1.1rem; }
-      .hero .hero-stats { gap: 0.5rem; }
-      .hero .swiper-button-next, .hero .swiper-button-prev {
-        width: 2rem;
-        height: 2rem;
-        font-size: 1.2rem;
-      }
-      .hero .swiper-pagination-bullet {
-        width: 0.8em;
-        height: 0.8em;
-      }
-    }
-    @media (max-width: 37.5em) {
-      .hero, .hero .swiper-slide { min-height: 3.75rem; width:99%; }
-      .hero .container { padding: 0.2rem 0.1rem; margin: 0 auto; width:99%; }
-      .hero .hero-title { font-size: 0.7rem; }
-      .hero .hero-tagline, .hero .hero-subtitle { font-size: 0.55rem; }
-      .hero .hero-stats { flex-direction: column; gap: 0.1rem; }
-      .hero .hero-credibility img { height: 0.75rem; }
-      .hero .swiper-button-next, .hero .swiper-button-prev {
-        width: 1.2rem;
-        height: 1.2rem;
-        font-size: 0.9rem;
-      }
-      .hero .swiper-pagination-bullet {
-        width: 0.6em;
-        height: 0.6em;
-      }
-    }
+        .about-container {
+            max-width: 98vw;
+            width: 98vw;
+            margin: 0 auto;
+        }
+        .about-row-main, .about-row-vmv {
+            width: 100%;
+            max-width: 98vw;
+        }
+        .about-vmv-group {
+            max-width: 1400px !important;
+            width: 98vw !important;
+        }
+        .services-container {
+            max-width: 98vw;
+            width: 98vw;
+            margin: 0 auto;
+        }
+        .projects-container {
+            max-width: 98vw;
+            width: 98vw;
+            margin: 0 auto;
+        }
+        .testimonials-container {
+            max-width: 98vw !important;
+            width: 98vw !important;
+            margin: 0 auto;
+        }
+        .team-container {
+            max-width: 98vw;
+            width: 98vw;
+            margin: 0 auto;
+        }
     </style>
 <?php include 'footer.php'; ?>

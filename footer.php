@@ -54,6 +54,7 @@
                             East Legon, Accra, Ghana
                         </li>
                     </ul>
+                   
                 </div>
                 <!-- Social Media -->
                 <div class="footer-social" style="text-align: center;">

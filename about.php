@@ -2,92 +2,86 @@
 
 <main class="about-section" style="background: #f5f8fc;">
     <!-- Hero Section -->
-    <section class="about-hero" style="position:relative; background:linear-gradient(120deg,#eaf1fb 60%,#1a4fa0 100%); min-height:320px; display:flex; align-items:center; justify-content:center; width:99%; margin:0 auto;">
+    <section class="about-hero" style="position:relative; background:linear-gradient(120deg,#eaf1fb 60%,#1a4fa0 100%); min-height:320px; display:flex; align-items:center; justify-content:center; width:100%; margin:0 auto;">
         <div class="about-hero-overlay" style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(26,79,160,0.08);"></div>
-        <div class="about-hero-content" style="position:relative; z-index:2; text-align:center;">
-            <h1 class="about-hero-title" style="font-size:1.9rem; color:#1a4fa0; font-family:'Playfair Display',serif; font-weight:800; margin-bottom:0.7rem;">About DnR Engineering Construction</h1>
-            <div class="about-hero-subtitle" style="font-size:1.15rem; color:#1a2233;">Building Trust, Delivering Excellence Across Ghana</div>
+        <div class="about-hero-content" style="position:relative; z-index:2; text-align:center; padding:2.5rem 1.2rem;">
+            <h1 class="about-hero-title" style="font-size:2.5rem; color:#1a4fa0; font-family:'Playfair Display',serif; font-weight:800; margin-bottom:0.7rem; letter-spacing:0.01em;">About DnR Engineering Construction</h1>
+            <div class="about-hero-subtitle" style="font-size:1.25rem; color:#1a2233; font-weight:500;">Building Trust, Delivering Excellence Across Ghana</div>
         </div>
     </section>
 
     <section class="about-detailed" style="max-width:1400px; width:90%; margin:0 auto; padding:2.8rem 1.2rem;">
         <!-- Story & What Sets Us Apart -->
-    <section class="about-story-legacy" style="margin-bottom:3.2rem; width:99%; margin:0 auto;">
+        <section class="about-story-legacy" style="margin-bottom:3.2rem; width:100%; margin:0 auto;">
             <div class="about-story-legacy-header" style="text-align:center; margin-bottom:2.7rem;">
-                <h2 class="about-section-title" style="font-size:1.9rem; color:#1a4fa0; font-family:'Playfair Display',serif; font-weight:800; letter-spacing:0.01em; padding-top: 1rem;">
-                    <span style="margin-right:0.5rem; padding-top:0.5rem"></span> Our Story & What Sets Us Apart
-                </h2>
-                <p style="font-size:1.22rem; color:#1a2233; max-width:800px; margin:0.7rem auto 0 auto;">
-                    Discover the legacy, values, and unique strengths that make DnR Engineering Construction a leader in Ghana’s construction industry.
-                </p>
+                <h2 class="about-section-title" style="font-size:2.1rem; color:#1a4fa0; font-family:'Playfair Display',serif; font-weight:800; letter-spacing:0.01em; padding-top: 1rem; margin-bottom:0.5rem;">Our Story & What Sets Us Apart</h2>
+                <p style="font-size:1.22rem; color:#1a2233; max-width:800px; margin:0.7rem auto 0 auto;">Discover the legacy, values, and unique strengths that make DnR Engineering Construction a leader in Ghana’s construction industry.</p>
             </div>
-            <div class="about-story-legacy-row" style="display:flex; flex-wrap:wrap; gap:2.7rem; align-items:stretch; justify-content:center; width:99%; margin:0 auto;">
-                <div class="about-story-legacy-col about-story-legacy-text" style="flex:1 1 600px; min-width:340px; max-width:700px; width:99%; background:#fff; border-radius:1.2rem; box-shadow:0 4px 24px rgba(26,79,160,0.10); padding:2.5rem 2.2rem; display:flex; flex-direction:column; justify-content:center; margin:0 auto;">
-                    <h3 class="about-section-title about-section-title-center" style="font-size:1.9rem;">Our Story & Legacy</h3>
-                    <p style="font-size:1.15rem; color:#1a2233; line-height:1.75; margin-bottom:2.2rem;">
-                        Founded in 2010, DnR Engineering Construction has grown from a passionate team of engineers into one of Ghana’s most respected construction and engineering firms. With over 15 years of experience, we have delivered landmark projects across commercial, industrial, and residential sectors. Our people are our greatest asset—skilled professionals who bring creativity, integrity, and expertise to every challenge.
-                    </p>
+            <div class="about-story-legacy-row" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr)); gap:2.7rem; align-items:stretch; justify-content:center; width:100%; margin:0 auto;">
+                <div class="about-story-legacy-col about-story-legacy-text" style="background:#fff; border-radius:1.2rem; box-shadow:0 4px 24px rgba(26,79,160,0.10); padding:2.5rem 2.2rem; display:flex; flex-direction:column; justify-content:center;">
+                    <h3 class="about-section-title about-section-title-center" style="font-size:1.5rem; color:#1a4fa0; font-weight:700; margin-bottom:1.2rem;">Our Story & Legacy</h3>
+                    <p style="font-size:1.15rem; color:#1a2233; line-height:1.75; margin-bottom:2.2rem;">Founded in 2010, DnR Engineering Construction has grown from a passionate team of engineers into one of Ghana’s most respected construction and engineering firms. With over 15 years of experience, we have delivered landmark projects across commercial, industrial, and residential sectors. Our people are our greatest asset—skilled professionals who bring creativity, integrity, and expertise to every challenge.</p>
                 </div>
             </div>
         </section>
         <!-- What Sets Us Apart Container (now outside the story section) -->
         <div class="about-whatsets-container" style="width:99%; margin:2.5rem auto 0 auto; background:#fff; border-radius:1.2rem; box-shadow:0 4px 24px rgba(26,79,160,0.10); padding:2.5rem 2.2rem;">
-            <h3 class="about-section-title" style="color:#1a4fa0; font-size:1.7rem; font-weight:700; margin-bottom:1.1rem; text-align:center;"><i class="fas fa-star" style="color:#1a4fa0; margin-right:0.5rem;"></i> What Sets Us Apart</h3>
-            <div class="about-list" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:1.5rem; font-size:1.13rem; color:#1a2233; line-height:1.7; padding:0; margin:0; width:99%;">
+            <h3 class="about-section-title" style="color:#1a4fa0; font-size:1.7rem; font-weight:700; margin-bottom:1.1rem; text-align:center; letter-spacing:0.01em;"><i class="fas fa-star" style="color:#1a4fa0; margin-right:0.5rem;"></i> What Sets Us Apart</h3>
+            <div class="about-list" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:2rem; font-size:1.13rem; color:#1a2233; line-height:1.7; padding:0; margin:0; width:100%;">
                 <div class="about-feature-block" style="background:#f7faff; border-radius:1.2rem; padding:1.5rem 1.2rem; box-shadow:0 2px 8px rgba(26,79,160,0.07); display:flex; align-items:flex-start; gap:1rem;">
-                    <span style="font-size:1.5rem; color:#1a4fa0;"><i class="fas fa-tasks"></i></span>
+                    <span style="font-size:2rem; color:#1a4fa0; margin-right:0.7rem;"><i class="fas fa-tasks"></i></span>
                     <div>
-                        <strong style="color:#0077b6; font-size:1.08rem;">Comprehensive Project Management</strong>
-                        <div style="color:#222; font-size:1rem; margin-top:0.3rem;">End-to-end solutions tailored to each client’s needs.</div>
+                        <strong style="color:#0077b6; font-size:1.13rem;">Comprehensive Project Management</strong>
+                        <div style="color:#222; font-size:1.05rem; margin-top:0.3rem;">End-to-end solutions tailored to each client’s needs.</div>
                     </div>
                 </div>
                 <div class="about-feature-block" style="background:#f7faff; border-radius:1.2rem; padding:1.5rem 1.2rem; box-shadow:0 2px 8px rgba(26,79,160,0.07); display:flex; align-items:flex-start; gap:1rem;">
-                    <span style="font-size:1.5rem; color:#1a4fa0;"><i class="fas fa-cogs"></i></span>
+                    <span style="font-size:2rem; color:#1a4fa0; margin-right:0.7rem;"><i class="fas fa-cogs"></i></span>
                     <div>
-                        <strong style="color:#0077b6; font-size:1.08rem;">Technical Expertise</strong>
-                        <div style="color:#222; font-size:1rem; margin-top:0.3rem;">Certified engineers and skilled craftsmen using modern equipment and best practices.</div>
+                        <strong style="color:#0077b6; font-size:1.13rem;">Technical Expertise</strong>
+                        <div style="color:#222; font-size:1.05rem; margin-top:0.3rem;">Certified engineers and skilled craftsmen using modern equipment and best practices.</div>
                     </div>
                 </div>
                 <div class="about-feature-block" style="background:#f7faff; border-radius:1.2rem; padding:1.5rem 1.2rem; box-shadow:0 2px 8px rgba(26,79,160,0.07); display:flex; align-items:flex-start; gap:1rem;">
-                    <span style="font-size:1.5rem; color:#1a4fa0;"><i class="fas fa-user-friends"></i></span>
+                    <span style="font-size:2rem; color:#1a4fa0; margin-right:0.7rem;"><i class="fas fa-user-friends"></i></span>
                     <div>
-                        <strong style="color:#0077b6; font-size:1.08rem;">Client-Centric Approach</strong>
-                        <div style="color:#222; font-size:1rem; margin-top:0.3rem;">Lasting relationships through open communication and reliability.</div>
+                        <strong style="color:#0077b6; font-size:1.13rem;">Client-Centric Approach</strong>
+                        <div style="color:#222; font-size:1.05rem; margin-top:0.3rem;">Lasting relationships through open communication and reliability.</div>
                     </div>
                 </div>
                 <div class="about-feature-block" style="background:#f7faff; border-radius:1.2rem; padding:1.5rem 1.2rem; box-shadow:0 2px 8px rgba(26,79,160,0.07); display:flex; align-items:flex-start; gap:1rem;">
-                    <span style="font-size:1.5rem; color:#1a4fa0;"><i class="fas fa-chart-line"></i></span>
+                    <span style="font-size:2rem; color:#1a4fa0; margin-right:0.7rem;"><i class="fas fa-chart-line"></i></span>
                     <div>
-                        <strong style="color:#0077b6; font-size:1.08rem;">Proven Track Record</strong>
-                        <div style="color:#222; font-size:1rem; margin-top:0.3rem;">Successful delivery of complex projects on time and within budget.</div>
+                        <strong style="color:#0077b6; font-size:1.13rem;">Proven Track Record</strong>
+                        <div style="color:#222; font-size:1.05rem; margin-top:0.3rem;">Successful delivery of complex projects on time and within budget.</div>
                     </div>
                 </div>
                 <div class="about-feature-block" style="background:#f7faff; border-radius:1.2rem; padding:1.5rem 1.2rem; box-shadow:0 2px 8px rgba(26,79,160,0.07); display:flex; align-items:flex-start; gap:1rem;">
-                    <span style="font-size:1.5rem; color:#1a4fa0;"><i class="fas fa-hand-holding-usd"></i></span>
+                    <span style="font-size:2rem; color:#1a4fa0; margin-right:0.7rem;"><i class="fas fa-hand-holding-usd"></i></span>
                     <div>
-                        <strong style="color:#0077b6; font-size:1.08rem;">Flexible Financing</strong>
-                        <div style="color:#222; font-size:1rem; margin-top:0.3rem;">Payment options to make your project more accessible.</div>
+                        <strong style="color:#0077b6; font-size:1.13rem;">Flexible Financing</strong>
+                        <div style="color:#222; font-size:1.05rem; margin-top:0.3rem;">Payment options to make your project more accessible.</div>
                     </div>
                 </div>
                 <div class="about-feature-block" style="background:#f7faff; border-radius:1.2rem; padding:1.5rem 1.2rem; box-shadow:0 2px 8px rgba(26,79,160,0.07); display:flex; align-items:flex-start; gap:1rem;">
-                    <span style="font-size:1.5rem; color:#1a4fa0;"><i class="fas fa-comments"></i></span>
+                    <span style="font-size:2rem; color:#1a4fa0; margin-right:0.7rem;"><i class="fas fa-comments"></i></span>
                     <div>
-                        <strong style="color:#0077b6; font-size:1.08rem;">Free Consultations</strong>
-                        <div style="color:#222; font-size:1rem; margin-top:0.3rem;">No-obligation consultations for confident planning.</div>
+                        <strong style="color:#0077b6; font-size:1.13rem;">Free Consultations</strong>
+                        <div style="color:#222; font-size:1.05rem; margin-top:0.3rem;">No-obligation consultations for confident planning.</div>
                     </div>
                 </div>
                 <div class="about-feature-block" style="background:#f7faff; border-radius:1.2rem; padding:1.5rem 1.2rem; box-shadow:0 2px 8px rgba(26,79,160,0.07); display:flex; align-items:flex-start; gap:1rem;">
-                    <span style="font-size:1.5rem; color:#1a4fa0;"><i class="fas fa-money-bill-wave"></i></span>
+                    <span style="font-size:2rem; color:#1a4fa0; margin-right:0.7rem;"><i class="fas fa-money-bill-wave"></i></span>
                     <div>
-                        <strong style="color:#0077b6; font-size:1.08rem;">Competitive Pricing</strong>
-                        <div style="color:#222; font-size:1rem; margin-top:0.3rem;">Real value for money on every project.</div>
+                        <strong style="color:#0077b6; font-size:1.13rem;">Competitive Pricing</strong>
+                        <div style="color:#222; font-size:1.05rem; margin-top:0.3rem;">Real value for money on every project.</div>
                     </div>
                 </div>
                 <div class="about-feature-block" style="background:#f7faff; border-radius:1.2rem; padding:1.5rem 1.2rem; box-shadow:0 2px 8px rgba(26,79,160,0.07); display:flex; align-items:flex-start; gap:1rem;">
-                    <span style="font-size:1.5rem; color:#1a4fa0;"><i class="fas fa-building"></i></span>
+                    <span style="font-size:2rem; color:#1a4fa0; margin-right:0.7rem;"><i class="fas fa-building"></i></span>
                     <div>
-                        <strong style="color:#0077b6; font-size:1.08rem;">Trusted by Leading Businesses</strong>
-                        <div style="color:#222; font-size:1rem; margin-top:0.3rem;">Clients include top companies and organizations across Ghana.</div>
+                        <strong style="color:#0077b6; font-size:1.13rem;">Trusted by Leading Businesses</strong>
+                        <div style="color:#222; font-size:1.05rem; margin-top:0.3rem;">Clients include top companies and organizations across Ghana.</div>
                     </div>
                 </div>
             </div>
@@ -208,20 +202,54 @@
        <?php include 'team-section.php'; ?>
 
         <div class="about-extras-row" style="display:flex; flex-wrap:wrap; gap:2.5rem; align-items:stretch; width:99%; margin:0 auto;">
-            <div class="about-extras-col" style="flex:1 1 300px; background:#fff; border-radius:1.1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:2rem 1.5rem;">
-<h4 style="font-family:'Playfair Display',serif; font-weight:800; font-size:1.1rem; color:#1a4fa0; margin-bottom:1rem; text-align:center;"><i class="fas fa-shield-alt"></i> Safety & Sustainability</h4>
-                <p style="font-size:1.05rem; color:#222;">At DnR Engineering Construction, safety is not just a priority—it's a core value. We are committed to maintaining the highest standards of health, safety, and environmental stewardship on every project. Our teams undergo rigorous training, and we implement best-in-class safety protocols to protect our people, clients, and communities.</p>
-                <p style="font-size:1.05rem; color:#222;">Sustainability is at the heart of our operations. We integrate eco-friendly practices, energy-efficient solutions, and responsible resource management into our projects, ensuring a positive impact on the environment and future generations.</p>
+            <?php
+            $extras = [
+            [
+                'icon' => 'fa-shield-alt',
+                'title' => 'Safety & Sustainability',
+                'desc' => [
+                "At DnR Engineering Construction, safety is not just a priority—it's a core value. We are committed to maintaining the highest standards of health, safety, and environmental stewardship on every project. Our teams undergo rigorous training, and we implement best-in-class safety protocols to protect our people, clients, and communities.",
+                "Sustainability is at the heart of our operations. We integrate eco-friendly practices, energy-efficient solutions, and responsible resource management into our projects, ensuring a positive impact on the environment and future generations."
+                ],
+                'bg' => 'linear-gradient(120deg,#eaf1fb 60%,#1a4fa0 100%)'
+            ],
+            [
+                'icon' => 'fa-hands-helping',
+                'title' => 'Community Engagement',
+                'desc' => [
+                "We believe in giving back to the communities where we work. DnR Engineering Construction supports local initiatives, educational programs, and charitable organizations.",
+                "We actively engage with stakeholders to understand their needs and contribute to social and economic development, fostering long-term partnerships and shared prosperity."
+                ],
+                'bg' => 'linear-gradient(120deg,#eaf1fb 60%,#0077b6 100%)'
+            ],
+            [
+                'icon' => 'fa-lightbulb',
+                'title' => 'Innovation & Technology',
+                'desc' => [
+                "Embracing innovation is key to our success. We leverage the latest construction technologies, digital tools, and modern equipment to enhance project delivery, improve efficiency, and ensure quality.",
+                "Our commitment to continuous improvement drives us to adopt new methods and stay ahead in a rapidly evolving industry."
+                ],
+                'bg' => 'linear-gradient(120deg,#eaf1fb 60%,#00b4d8 100%)'
+            ]
+            ];
+            foreach ($extras as $ex): ?>
+            <div class="about-extras-col" style="flex:1 1 300px; background:#fff; border-radius:1.2rem; box-shadow:0 6px 32px rgba(26,79,160,0.10); padding:2.5rem 2rem; display:flex; flex-direction:column; align-items:center; transition:box-shadow 0.2s, transform 0.2s;">
+            <div style="width:70px; height:70px; background:<?= $ex['bg'] ?>; border-radius:50%; display:flex; align-items:center; justify-content:center; margin-bottom:1.2rem; box-shadow:0 2px 12px rgba(26,79,160,0.10);">
+                <i class="fas <?= $ex['icon'] ?>" style="font-size:2rem; color:#fff;"></i>
             </div>
-            <div class="about-extras-col" style="flex:1 1 300px; background:#fff; border-radius:1.1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:2rem 1.5rem;">
-<h4 style="font-family:'Playfair Display',serif; font-weight:800; font-size:1.1rem; color:#1a4fa0; margin-bottom:1rem; text-align:center;"><i class="fas fa-hands-helping"></i> Community Engagement</h4>
-                <p style="font-size:1.05rem; color:#222;">We believe in giving back to the communities where we work. DnR Engineering Construction supports local initiatives, educational programs, and charitable organizations. We actively engage with stakeholders to understand their needs and contribute to social and economic development, fostering long-term partnerships and shared prosperity.</p>
+            <h4 style="font-family:'Playfair Display',serif; font-weight:800; font-size:1.15rem; color:#1a4fa0; margin-bottom:1rem; text-align:center; letter-spacing:0.01em;"><?= $ex['title'] ?></h4>
+            <?php foreach ($ex['desc'] as $p): ?>
+                <p style="font-size:1.07rem; color:#222; margin-bottom:0.7rem; text-align:center;"><?= $p ?></p>
+            <?php endforeach; ?>
             </div>
-            <div class="about-extras-col" style="flex:1 1 300px; background:#fff; border-radius:1.1rem; box-shadow:0 2px 12px rgba(26,79,160,0.06); padding:2rem 1.5rem;">
-<h4 style="font-family:'Playfair Display',serif; font-weight:800; font-size:1.1rem; color:#1a4fa0; margin-bottom:1rem; text-align:center;"><i class="fas fa-lightbulb"></i> Innovation & Technology</h4>
-                <p style="font-size:1.05rem; color:#222;">Embracing innovation is key to our success. We leverage the latest construction technologies, digital tools, and modern equipment to enhance project delivery, improve efficiency, and ensure quality. Our commitment to continuous improvement drives us to adopt new methods and stay ahead in a rapidly evolving industry.</p>
-            </div>
+            <?php endforeach; ?>
         </div>
+        <style>
+            .about-extras-row .about-extras-col:hover {
+            box-shadow:0 12px 40px rgba(26,79,160,0.18);
+            transform:translateY(-4px) scale(1.03);
+            }
+        </style>
 
         <hr style="margin:2.5rem 0; border:0; border-top:2px solid #e3e9f3;">
 

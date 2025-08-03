@@ -74,9 +74,7 @@
             <div class="gallery-item">
                 <img src="assets/images/BC90DBE6-8695-4A2D-9921-B23125D0667F.jpg" alt="Project 13" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/cropped-DnR-1.jpg" alt="DnR Logo" class="gallery-img">
-            </div>
+        
             <div class="gallery-item">
                 <img src="assets/images/des.jpg" alt="Design Image" class="gallery-img">
             </div>
@@ -203,12 +201,7 @@
             <div class="gallery-item">
                 <img src="assets/images/IMG-20250801-WA0038.jpg" alt="Project 51" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_0018.HEIC" alt="Image 6" class="gallery-img">
-            </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_0024.HEIC" alt="Image 7" class="gallery-img">
-            </div>
+            
             <div class="gallery-item">
                 <img src="assets/images/IMG_0060.jpg" alt="Image 8" class="gallery-img">
             </div>
@@ -242,24 +235,11 @@
             <div class="gallery-item">
                 <img src="assets/images/IMG_0367.jpg" alt="Image 17" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_0384.HEIC" alt="Image 18" class="gallery-img">
-            </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_0386.HEIC" alt="Image 19" class="gallery-img">
-            </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_0409.HEIC" alt="Image 20" class="gallery-img">
-            </div>
+           
             <div class="gallery-item">
                 <img src="assets/images/IMG_0426.jpg" alt="Image 21" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_0470.HEIC" alt="Image 22" class="gallery-img">
-            </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_0473.HEIC" alt="Image 23" class="gallery-img">
-            </div>
+           
             <div class="gallery-item">
                 <img src="assets/images/IMG_0499.jpg" alt="Project 4" class="gallery-img">
             </div>
@@ -269,9 +249,7 @@
             <div class="gallery-item">
                 <img src="assets/images/IMG_0709.JPG" alt="Image 24" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_0801.jpg" alt="Image 25" class="gallery-img">
-            </div>
+
             <div class="gallery-item">
                 <img src="assets/images/IMG_0911.jpg" alt="Image 26" class="gallery-img">
             </div>
@@ -281,21 +259,15 @@
             <div class="gallery-item">
                 <img src="assets/images/IMG_0955.jpg" alt="Image 28" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_1125.jpg" alt="Image 29" class="gallery-img">
-            </div>
+            
             <div class="gallery-item">
                 <img src="assets/images/IMG_1687.JPG" alt="Image 30" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_1774.JPG" alt="Image 31" class="gallery-img">
-            </div>
+           
             <div class="gallery-item">
                 <img src="assets/images/IMG_1779.JPG" alt="Image 32" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/IMG_1781.JPG" alt="Image 33" class="gallery-img">
-            </div>
+            
             <div class="gallery-item">
                 <img src="assets/images/IMG_2099.jpg" alt="Image 34" class="gallery-img">
             </div>
@@ -356,40 +328,28 @@
             <div class="gallery-item">
                 <img src="assets/images/IMG_5863.JPG" alt="Image 53" class="gallery-img">
             </div>
+           
+            
+           
             <div class="gallery-item">
-                <img src="assets/images/IMG_6227.HEIC" alt="Image 54" class="gallery-img">
+                <img src="assets/images/Michael Teye.jpeg" alt="Team 3" class="gallery-img" loading="lazy">
             </div>
             <div class="gallery-item">
-                <img src="assets/images/IMG_6449.HEIC" alt="Image 55" class="gallery-img">
+                <img src="assets/images/pexels-pixabay-271667-scaled.jpg" alt="Image 59" class="gallery-img" loading="lazy">
             </div>
             <div class="gallery-item">
-                <img src="assets/images/IMG_6450.HEIC" alt="Image 56" class="gallery-img">
+                <img src="assets/images/post-3.jpg" alt="Image 60" class="gallery-img" loading="lazy">
             </div>
             <div class="gallery-item">
-<img src="assets/images/IMG_6451.HEIC" alt="Image 57" class="gallery-img" loading="lazy">
-            </div>
-            <div class="gallery-item">
-<img src="assets/images/IMG_7150.HEIC" alt="Image 58" class="gallery-img" loading="lazy">
-            </div>
-            <div class="gallery-item">
-<img src="assets/images/Michael Teye.jpeg" alt="Team 3" class="gallery-img" loading="lazy">
-            </div>
-            <div class="gallery-item">
-<img src="assets/images/pexels-pixabay-271667-scaled.jpg" alt="Image 59" class="gallery-img" loading="lazy">
-            </div>
-            <div class="gallery-item">
-<img src="assets/images/post-3.jpg" alt="Image 60" class="gallery-img" loading="lazy">
-            </div>
-            <div class="gallery-item">
-<img src="assets/images/IMG-20250729-WA0006.jpg" alt="Image 61" class="gallery-img" loading="lazy">
+                <img src="assets/images/IMG-20250729-WA0006.jpg" alt="Image 61" class="gallery-img" loading="lazy">
             </div>
 
             <div class="gallery-item">
-<img src="assets/images/IMG-20250729-WA0005.jpg" alt="Image 62" class="gallery-img" loading="lazy">
+                <img src="assets/images/IMG-20250729-WA0005.jpg" alt="Image 62" class="gallery-img" loading="lazy">
             </div>
 
             <div class="gallery-item">
-<img src="assets/images/IMG-20250729-WA0004.jpg" alt="Image 63" class="gallery-img" loading="lazy">
+                <img src="assets/images/IMG-20250729-WA0004.jpg" alt="Image 63" class="gallery-img" loading="lazy">
             </div>
 
             <div class="gallery-item">
