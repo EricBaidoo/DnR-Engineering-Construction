@@ -7,11 +7,10 @@
     ======================== -->
     <?php include 'contact-section.php'; ?>
     <footer class="footer">
-       
-        <div class="footer-container">
-            <div class="footer-main">
+        <div class="footer-container" style="display: flex; flex-direction: column; align-items: center;">
+            <div class="footer-main" style="width: 100%; display: flex; flex-wrap: wrap; gap: 2.5rem; justify-content: center; text-align: center;">
                 <!-- Brand & Description -->
-                <div class="footer-brand">
+                <div class="footer-brand" style="justify-content: center; text-align: center;">
                     <img src="assets/images/cropped-DnR-1.jpg" alt="DnR Engineering Construction Logo" class="footer-logo">
                     <div>
                         <span class="footer-company">DnR Engineering Consult</span>
@@ -21,7 +20,7 @@
                     </div>
                 </div>
                 <!-- Quick Links -->
-                <div class="footer-links">
+                <div class="footer-links" style="text-align: center;">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
@@ -33,7 +32,7 @@
                     </ul>
                 </div>
                 <!-- Contact Info -->
-                <div class="footer-contact">
+                <div class="footer-contact" style="text-align: center;">
                     <h4>Contact</h4>
                     <ul>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:dnr.eng.consult@gmail.com" style="text-decoration:none;">info@dnrengineering.com</a></li>
@@ -42,7 +41,7 @@
                     </ul>
                 </div>
                 <!-- Social Media -->
-                <div class="footer-social">
+                <div class="footer-social" style="text-align: center;">
                     <h4>Follow Us</h4>
                     <div class="footer-social-icons">
                         <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -55,7 +54,7 @@
 
             
         </div>
-        <div class="footer-bottom">
+        <div class="footer-bottom" style="text-align: center;">
             <span>&copy; 2025 DnR Engineering Consult. All rights reserved.</span>
             <span class="footer-powered">Powered by <a href="#" target="_blank" rel="noopener" class="footer-powered-link">E7 Technology Solutions</a></span>
         </div>

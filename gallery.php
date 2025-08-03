@@ -366,30 +366,30 @@
                 <img src="assets/images/IMG_6450.HEIC" alt="Image 56" class="gallery-img">
             </div>
             <div class="gallery-item">
-                <img src="assets/images/IMG_6451.HEIC" alt="Image 57" class="gallery-img">
+<img src="assets/images/IMG_6451.HEIC" alt="Image 57" class="gallery-img" loading="lazy">
             </div>
             <div class="gallery-item">
-                <img src="assets/images/IMG_7150.HEIC" alt="Image 58" class="gallery-img">
+<img src="assets/images/IMG_7150.HEIC" alt="Image 58" class="gallery-img" loading="lazy">
             </div>
             <div class="gallery-item">
-                <img src="assets/images/Michael Teye.jpeg" alt="Team 3" class="gallery-img">
+<img src="assets/images/Michael Teye.jpeg" alt="Team 3" class="gallery-img" loading="lazy">
             </div>
             <div class="gallery-item">
-                <img src="assets/images/pexels-pixabay-271667-scaled.jpg" alt="Image 59" class="gallery-img">
+<img src="assets/images/pexels-pixabay-271667-scaled.jpg" alt="Image 59" class="gallery-img" loading="lazy">
             </div>
             <div class="gallery-item">
-                <img src="assets/images/post-3.jpg" alt="Image 60" class="gallery-img">
+<img src="assets/images/post-3.jpg" alt="Image 60" class="gallery-img" loading="lazy">
             </div>
             <div class="gallery-item">
-                <img src="assets/images/IMG-20250729-WA0006.jpg" alt="Image 61" class="gallery-img">
-            </div>
-
-            <div class="gallery-item">
-                <img src="assets/images/IMG-20250729-WA0005.jpg" alt="Image 62" class="gallery-img">
+<img src="assets/images/IMG-20250729-WA0006.jpg" alt="Image 61" class="gallery-img" loading="lazy">
             </div>
 
             <div class="gallery-item">
-                <img src="assets/images/IMG-20250729-WA0004.jpg" alt="Image 63" class="gallery-img">
+<img src="assets/images/IMG-20250729-WA0005.jpg" alt="Image 62" class="gallery-img" loading="lazy">
+            </div>
+
+            <div class="gallery-item">
+<img src="assets/images/IMG-20250729-WA0004.jpg" alt="Image 63" class="gallery-img" loading="lazy">
             </div>
 
             <div class="gallery-item">
