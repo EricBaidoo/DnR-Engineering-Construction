@@ -48,6 +48,7 @@
                 <li><a href="our-service.php">Services</a></li>
                 <li><a href="projects.php">Projects</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
                 <li class="nav-cta">
                     <a href="contact.php" class="btn-quote">Enquire</a>
                 </li>

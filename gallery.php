@@ -381,8 +381,25 @@
                 <img src="assets/images/post-3.jpg" alt="Image 60" class="gallery-img">
             </div>
             <div class="gallery-item">
-                <img src="assets/images/Untitled-1-02.png" alt="Image 61" class="gallery-img">
+                <img src="assets/images/IMG-20250729-WA0006.jpg" alt="Image 61" class="gallery-img">
             </div>
+
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250729-WA0005.jpg" alt="Image 62" class="gallery-img">
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250729-WA0004.jpg" alt="Image 63" class="gallery-img">
+            </div>
+
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250729-WA0003.jpg" alt="Image 64" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/IMG-20250729-WA0001.jpg" alt="Image 65" class="gallery-img">
+            </div>
+
+
         </div>
     </div>
     
