@@ -48,6 +48,31 @@
                     </div>
                 </div>
             </div>
+             <!-- Slide 4 -->
+            <div class="swiper-slide" style="background-image:url('assets/images/IMG-20250729-WA0001.jpg'); background-size:cover; background-position:center;">
+                <div class="container">
+                    <div class="hero-text-bg">
+                        <div class="hero-accent-bar"></div>
+                        <div class="hero-tagline">Modern Infrastructure, Lasting Value</div>
+                        <h1 class="hero-title">Roads, Bridges & <span class="highlight">Civil Works</span></h1>
+                        <div class="hero-subtitle">Delivering durable infrastructure projects that connect communities and drive progress across Ghana.</div>
+                        <div class="hero-actions">
+                            <a href="#services" class="btn btn-primary">Explore Civil Works</a>
+                            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
         </div>
         <!-- Swiper navigation -->
         <div class="swiper-button-next"></div>

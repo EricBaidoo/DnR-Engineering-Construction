@@ -189,6 +189,20 @@
                     </div>
                 </div>
 
+                 <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/IMG-20250729-WA0001.jpg" alt="General arrangement of rebars for basement construction">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">General arrangement of rebars for basement construction</h3>
+                        <p class="project-desc">
+                            Detailed planning and arrangement of reinforcement bars (rebars) for the basement construction phase, ensuring structural integrity and compliance with safety standards. This project involved precise calculations and layout designs to optimize the use of materials and enhance the overall stability of the building.
+                        </p>
+                        <a href="projects.php#basement-rebars" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
 
 
 

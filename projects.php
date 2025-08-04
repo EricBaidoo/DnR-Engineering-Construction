@@ -194,6 +194,26 @@
         </div>
     </div>
 
+     <!-- Project 3-->
+     <div class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
+        <!-- Project Image Column -->
+        <div class="project-image" style="flex: 1 1 35%; min-width: 28%; max-width: 40%; padding-right: 2rem;">
+            <img src="assets/images/IMG-20250729-WA0001.jpg" alt="Modern Office Complex – Accra" style="width: 100%; height: auto; border-radius: 0.5rem; box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.06);">
+        </div>
+        <!-- Project Description Column -->
+        <div class="project-details" style="flex: 2 1 60%; min-width: 28%; padding-left: 2rem;">
+            <h3 class="project-title" style="font-size: 2em; color: #0d47a1; margin: 1rem; font-weight: 600;">General arrangement of rebars for basement construction</h3>
+            <p class="project-description" style="font-size: 1.08em; color: #444; margin: 2rem;">
+            Detailed planning and arrangement of reinforcement bars (rebars) for the basement construction phase, ensuring structural integrity and compliance with safety standards. This project involved precise calculations and layout designs to optimize the use of materials and enhance the overall stability of the building.
+            installation of energy-saving lighting and climate control, and the use of sustainable building materials.
+            All rooms and common areas were redesigned for better space utilization, natural light, and accessibility.
+            Fire safety systems and secure access controls were added to ensure resident protection. The renovation
+            was completed with minimal disruption to occupants, and the result is a modern, safe, and welcoming hostel
+            that meets current standards and supports the well-being of its residents.
+            </p>
+        </div>
+    </div>
+
 
 
 
