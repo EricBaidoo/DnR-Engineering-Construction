@@ -282,7 +282,7 @@
                 <div class="team-card">
                     <div class="team-image">
                         <div class="team-photo">
-                            <img src="assets images/GAD.jpeg" alt="Gad Agbemavi - Site Engineer">
+                            <img src="assets/images/GAD.jpeg" alt="Gad Agbemavi - Site Engineer">
                         </div>
                     </div>
                     <div class="team-content">
