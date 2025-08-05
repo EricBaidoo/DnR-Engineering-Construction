@@ -157,7 +157,7 @@
                     <div class="project-content">
                         <h3 class="project-title">Modern Office Complex – Accra</h3>
                         <p class="project-desc">
-                            Construction of a state-of-the-art office complex in Accra, featuring contemporary architecture, energy-efficient systems, and flexible workspaces. The project delivers a professional environment designed for productivity, collaboration, and future growth.
+                            State-of-the-art office complex in Accra with modern design and flexible spaces.
                         </p>
                         <a href="projects.php#office-complex" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -169,7 +169,7 @@
                     <div class="project-content">
                         <h3 class="project-title">Block Fencing – 12 Acre Land, Berekuso</h3>
                         <p class="project-desc">
-                            Secure perimeter block fencing for a 12-acre property at Berekuso, designed to provide safety, privacy, and long-term durability. Our team delivered robust construction using quality materials, ensuring the land is well-protected and ready for future development.
+                            Durable block fencing for 12-acre land in Berekuso, ensuring safety and privacy.
                         </p>
                         <a href="projects.php#berekuso-fencing" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -183,7 +183,7 @@
                     <div class="project-content">
                         <h3 class="project-title">Renovation – 3-Storey Hostel Building</h3>
                         <p class="project-desc">
-                            Comprehensive renovation of a three-storey hostel building, including structural upgrades, modernized interiors, and enhanced safety features. The project focused on improving comfort, energy efficiency, and long-term durability for residents, delivering a refreshed and functional living environment.
+                            Modern upgrade of hostel for comfort, safety, and efficiency.
                         </p>
                         <a href="projects.php#hostel-renovation" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -197,7 +197,7 @@
                     <div class="project-content">
                         <h3 class="project-title">General arrangement of rebars for basement construction</h3>
                         <p class="project-desc">
-                            Detailed planning and arrangement of reinforcement bars (rebars) for the basement construction phase, ensuring structural integrity and compliance with safety standards. This project involved precise calculations and layout designs to optimize the use of materials and enhance the overall stability of the building.
+                            Arranged rebars for basement construction for strength and safety.
                         </p>
                         <a href="projects.php#basement-rebars" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -211,10 +211,7 @@
                     <div class="project-content">
                         <h3 class="project-title">Construction of Seven-unit single room self contained at Berekuso</h3>
                         <p class="project-desc">
-                            Comprehensive construction of a seven-unit single room self-contained building 
-                            at Berekuso, designed to provide comfortable and functional living spaces. 
-                            The project focused on quality materials and modern design principles to 
-                            ensure durability and aesthetic appeal.
+                            Seven self-contained rooms built in Berekuso with modern design.
                         </p>
                         <a href="projects.php#seven-unit-construction" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
@@ -228,9 +225,7 @@
                     <div class="project-content">
                         <h3 class="project-title">Construction of the state of the art welding workshop with shipping containers</h3>
                         <p class="project-desc">
-                            Comprehensive construction of a state-of-the-art welding workshop using shipping containers, 
-                            designed to provide a modern and efficient workspace for welding activities.
-                             The project focused on innovative design and high-quality materials to ensure safety and functionality.
+                            Modern welding workshop built from shipping containers for efficient work.
                         </p>
                         <a href="projects.php#container-welding-workshop" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
                     </div>
