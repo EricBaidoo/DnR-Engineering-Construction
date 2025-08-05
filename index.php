@@ -203,6 +203,41 @@
                     </div>
                 </div>
 
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/7 unit.jpeg" alt="Construction of Seven-unit single room self contained at Berekuso">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Construction of Seven-unit single room self contained at Berekuso</h3>
+                        <p class="project-desc">
+                            Comprehensive construction of a seven-unit single room self-contained building 
+                            at Berekuso, designed to provide comfortable and functional living spaces. 
+                            The project focused on quality materials and modern design principles to 
+                            ensure durability and aesthetic appeal.
+                        </p>
+                        <a href="projects.php#seven-unit-construction" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                 <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/welding1.jpeg" alt="Construction of the state of the art welding workshop with shipping containers">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Construction of the state of the art welding workshop with shipping containers</h3>
+                        <p class="project-desc">
+                            Comprehensive construction of a state-of-the-art welding workshop using shipping containers, 
+                            designed to provide a modern and efficient workspace for welding activities.
+                             The project focused on innovative design and high-quality materials to ensure safety and functionality.
+                        </p>
+                        <a href="projects.php#container-welding-workshop" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                
+
 
 
 

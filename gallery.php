@@ -65,9 +65,7 @@
             <div class="gallery-item">
                 <img src="assets/images/989D2955-111F-4487-85CF-5CA6AF7AEA65.jpg" alt="Project 11" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/AWUK8089.jpg" alt="Team 1" class="gallery-img">
-            </div>
+           
             <div class="gallery-item">
                 <img src="assets/images/B7A83818-24D3-4185-AF39-357252778C08.jpg" alt="Project 12" class="gallery-img">
             </div>
@@ -78,18 +76,14 @@
             <div class="gallery-item">
                 <img src="assets/images/des.jpg" alt="Design Image" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/Edem Desu.jpeg" alt="Team 2" class="gallery-img">
-            </div>
+           
             <div class="gallery-item">
                 <img src="assets/images/F2F35D35-9AE2-4C96-A51F-79FBD479864F.jpg" alt="Project 14" class="gallery-img">
             </div>
             <div class="gallery-item">
                 <img src="assets/images/F8C0543A-2A02-41EC-A2A8-2B11388D4C97.jpg" alt="Project 15" class="gallery-img">
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/GAD.jpeg" alt="Team 4" class="gallery-img">
-            </div>
+           
             <div class="gallery-item">
                 <img src="assets/images/image-5.png" alt="Image 5" class="gallery-img">
             </div>
@@ -331,9 +325,7 @@
            
             
            
-            <div class="gallery-item">
-                <img src="assets/images/Michael Teye.jpeg" alt="Team 3" class="gallery-img" loading="lazy">
-            </div>
+            
             <div class="gallery-item">
                 <img src="assets/images/pexels-pixabay-271667-scaled.jpg" alt="Image 59" class="gallery-img" loading="lazy">
             </div>
@@ -359,6 +351,13 @@
                 <img src="assets/images/IMG-20250729-WA0001.jpg" alt="Image 65" class="gallery-img">
             </div>
 
+            <div class="gallery-item">
+                <img src="assets/images/welding3.jpeg" alt="Image 66" class="gallery-img">
+            </div>
+
+             <div class="gallery-item">
+                <img src="assets/images/7unit2.jpeg" alt="Image 67" class="gallery-img">
+            </div>
 
         </div>
     </div>

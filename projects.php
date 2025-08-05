@@ -194,7 +194,7 @@
         </div>
     </div>
 
-     <!-- Project 3-->
+     <!-- Project 4-->
      <div class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
         <!-- Project Image Column -->
         <div class="project-image" style="flex: 1 1 35%; min-width: 28%; max-width: 40%; padding-right: 2rem;">
@@ -213,6 +213,66 @@
             </p>
         </div>
     </div>
+
+    <!-- Project 5-->
+    <div class="project-item">
+      <!-- Project Image Column -->
+      <div class="project-image">
+        <img src="assets/images/7 unit.jpeg" alt="Seven-unit Single Room Self-Contained – Berekuso">
+      </div>
+      <!-- Project Description Column -->
+      <div class="project-details">
+        <h3 class="project-title">Seven-unit Single Room Self-Contained – Berekuso</h3>
+        Construction of a modern seven-unit single room self-contained building in Berekuso, 
+        offering practical and comfortable accommodation for individuals and small families. 
+        Each unit is thoughtfully designed to maximize space efficiency, featuring a private 
+        bathroom, kitchenette, and ample natural lighting. The project utilized high-quality
+         materials and contemporary architectural elements to ensure durability, safety, and
+          aesthetic appeal.
+
+        Residents benefit from secure access, dedicated parking spaces, and landscaped communal 
+        areas that promote relaxation and social interaction. The building incorporates energy-efficient fixtures, reliable plumbing and electrical systems, and soundproofing for enhanced privacy. Attention was given to accessibility, with wide corridors and step-free entryways for ease of movement.
+
+        Throughout the construction process, our team maintained strict adherence to local 
+        building codes and safety standards, ensuring a resilient structure capable of 
+        withstanding environmental challenges. The development was completed on schedule
+         and within budget, with a focus on quality workmanship and long-term value for 
+         both owners and occupants. The result is a modern, welcoming living environment
+          that supports comfort, convenience, and community.
+        </p>
+      </div>
+    </div>
+
+     <!-- Project 4-->
+     <div class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
+        <!-- Project Image Column -->
+        <div class="project-image" style="flex: 1 1 35%; min-width: 28%; max-width: 40%; padding-right: 2rem;">
+            <img src="assets/images/welding1.jpeg" alt="Modern Office Complex – Accra" style="width: 100%; height: auto; border-radius: 0.5rem; box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.06);">
+        </div>
+        <!-- Project Description Column -->
+        <div class="project-details" style="flex: 2 1 60%; min-width: 28%; padding-left: 2rem;">
+            <h3 class="project-title" style="font-size: 2em; color: #0d47a1; margin: 1rem; font-weight: 600;">Construction of the state of the art welding workshop with shipping containers</h3>
+            <p class="project-description" style="font-size: 1.08em; color: #444; margin: 2rem;">
+                This project involved the innovative construction of a state-of-the-art welding workshop using
+                 repurposed shipping containers. The design maximizes space efficiency while providing a robust
+                  and secure environment for welding operations. Key features include reinforced container walls,
+                   specialized ventilation systems to manage fumes, and high-capacity electrical installations to
+                    support heavy-duty welding equipment.
+
+                The workshop layout was optimized for workflow, with designated areas for welding, assembly, 
+                and storage. Safety measures such as fire-resistant materials, emergency exits, and proper 
+                lighting were integrated throughout the design. The use of shipping containers not only 
+                reduced construction costs but also minimized environmental impact by recycling materials.
+
+                The project was completed on time and within budget, showcasing our commitment to quality 
+                craftsmanship and sustainable building practices. The result is a modern, functional welding
+                 workshop that meets industry standards and provides a safe working environment for skilled 
+                 tradespeople.
+       
+            </p>
+        </div>
+    </div>
+
 
 
 
