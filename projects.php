@@ -1,4 +1,3 @@
-
 <?php include 'header.php'; ?>
 
 <style>
@@ -125,7 +124,7 @@
 
 <!-- CONTAINER FOR VARIOUS PROJECTS -->
 <div class="projects" style="max-width: 90%; margin: 0 auto;">
-    <div class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
+    <div id="office-complex" class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
         <!-- Project Image Column -->
         <div class="project-image" style="flex: 1 1 35%; min-width: 28%; max-width: 40%; padding-right: 2rem;">
             <img src="assets\images\IMG_0925.jpg" alt="Modern Office Complex – Accra" style="width: 100%; height: auto; border-radius: 0.5rem; box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.06);">
@@ -148,7 +147,7 @@
         </div>
     </div>
     <!-- Project 2 -->
-     <div class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
+     <div id="berekuso-fencing" class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
         <!-- Project Image Column -->
         <div class="project-image" style="flex: 1 1 35%; min-width: 28%; max-width: 40%; padding-right: 2rem;">
             <img src="assets/images/IMG_4314.jpg" alt="Block Fencing – 12 Acre Land, Berekuso" style="width: 100%; height: auto; border-radius: 0.5rem; box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.06);">
@@ -172,7 +171,7 @@
     </div>
 
      <!-- Project 3-->
-     <div class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
+     <div id="hostel-renovation" class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
         <!-- Project Image Column -->
         <div class="project-image" style="flex: 1 1 35%; min-width: 28%; max-width: 40%; padding-right: 2rem;">
             <img src="assets/images/IMG_2100.jpg" alt="Modern Office Complex – Accra" style="width: 100%; height: auto; border-radius: 0.5rem; box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.06);">
@@ -195,7 +194,7 @@
     </div>
 
      <!-- Project 4-->
-     <div class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
+     <div id="basement-rebars" class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
         <!-- Project Image Column -->
         <div class="project-image" style="flex: 1 1 35%; min-width: 28%; max-width: 40%; padding-right: 2rem;">
             <img src="assets/images/IMG-20250729-WA0001.jpg" alt="Modern Office Complex – Accra" style="width: 100%; height: auto; border-radius: 0.5rem; box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.06);">
@@ -221,7 +220,7 @@
         <img src="assets/images/7 unit.jpeg" alt="Seven-unit Single Room Self-Contained – Berekuso">
       </div>
       <!-- Project Description Column -->
-      <div class="project-details">
+      <div class="project-details" id="seven-unit-construction">
         <h3 class="project-title">Seven-unit Single Room Self-Contained – Berekuso</h3>
         Construction of a modern seven-unit single room self-contained building in Berekuso, 
         offering practical and comfortable accommodation for individuals and small families. 
@@ -244,7 +243,7 @@
     </div>
 
      <!-- Project 4-->
-     <div class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
+     <div id="container-welding-workshop" class="project-item" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 2.5rem 0; padding: 2.5rem 2rem; background: #fff; border-radius: 0.625rem; box-shadow: 0 0.125rem 0.75rem rgba(0,0,0,0.08);">
         <!-- Project Image Column -->
         <div class="project-image" style="flex: 1 1 35%; min-width: 28%; max-width: 40%; padding-right: 2rem;">
             <img src="assets/images/welding1.jpeg" alt="Modern Office Complex – Accra" style="width: 100%; height: auto; border-radius: 0.5rem; box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.06);">
