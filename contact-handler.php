@@ -12,7 +12,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = isset($_POST['email']) ? trim($_POST['email']) : '';
     $subject = isset($_POST['subject']) ? trim($_POST['subject']) : '';
     $message = isset($_POST['message']) ? trim($_POST['message']) : '';
-    if ($name && filter_var($email, FILTER_VALIDATE_EMAIL) && $subject && $message) {
+    $recaptcha_response = isset($_POST['g-recaptcha-response']) ? $_POST['g-recaptcha-response'] : '';
+
+    // Google reCAPTCHA v2 server-side validation
+    $secret = '6LcRn5srAAAAAOTNuAgsWtme5E8t5RpgEO2GCpsM';
+    $verify = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $recaptcha_response);
+    $captcha_success = json_decode($verify);
+    $captcha_valid = ($captcha_success && $captcha_success->success);
+
+    if ($name && filter_var($email, FILTER_VALIDATE_EMAIL) && $subject && $message && $captcha_valid) {
         $mail = new PHPMailer(true);
         try {
             // SMTP settings
@@ -42,6 +50,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit;
         }
     } else {
+        if (!$captcha_valid) {
+            header('Location: contact.php?error=captcha');
+            exit;
+        }
         header('Location: contact.php?status=error');
         exit;
     }

@@ -381,4 +381,19 @@
             margin: 0 auto;
         }
     </style>
+<script>
+// Example: Obfuscate email address using JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+  var email = 'info' + '@' + 'dnrengineering.org';
+  var emailElements = document.querySelectorAll('.js-email');
+  emailElements.forEach(function(el) {
+    el.textContent = email;
+    el.href = 'mailto:' + email;
+  });
+});
+</script>
+
+<!-- Example usage somewhere in your HTML: -->
+<!-- <a class="js-email"></a> -->
+
 <?php include 'footer.php'; ?>
